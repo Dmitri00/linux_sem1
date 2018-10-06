@@ -1,0 +1,3134 @@
+execve("/bin/ps", ["ps", "-e"], [/* 25 vars */]) = 0
+brk(0)                                  = 0x7ce000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b14fb000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=122328, ...}) = 0
+mmap(NULL, 122328, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc5b14dd000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libprocps.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pB\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=76608, ...}) = 0
+mmap(NULL, 2247944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc5b10b8000
+mprotect(0x7fc5b10c8000, 2097152, PROT_NONE) = 0
+mmap(0x7fc5b12c8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7fc5b12c8000
+mmap(0x7fc5b12cb000, 72968, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc5b12cb000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc5b0eb4000
+mprotect(0x7fc5b0eb7000, 2093056, PROT_NONE) = 0
+mmap(0x7fc5b10b6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc5b10b6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1738176, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b14dc000
+mmap(NULL, 3844640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc5b0b09000
+mprotect(0x7fc5b0caa000, 2097152, PROT_NONE) = 0
+mmap(0x7fc5b0eaa000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a1000) = 0x7fc5b0eaa000
+mmap(0x7fc5b0eb0000, 14880, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc5b0eb0000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b14db000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b14da000
+arch_prctl(ARCH_SET_FS, 0x7fc5b14db700) = 0
+mprotect(0x7fc5b0eaa000, 16384, PROT_READ) = 0
+mprotect(0x7fc5b10b6000, 4096, PROT_READ) = 0
+mprotect(0x7fc5b12c8000, 8192, PROT_READ) = 0
+mprotect(0x615000, 4096, PROT_READ)     = 0
+mprotect(0x7fc5b14fd000, 4096, PROT_READ) = 0
+munmap(0x7fc5b14dd000, 122328)          = 0
+uname({sys="Linux", node="UnixVM", ...}) = 0
+open("/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+read(3, "0-23\n", 8192)                 = 5
+close(3)                                = 0
+brk(0)                                  = 0x7ce000
+brk(0x7ef000)                           = 0x7ef000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2855152, ...}) = 0
+mmap(NULL, 2855152, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc5b084f000
+close(3)                                = 0
+rt_sigaction(SIGSYS, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGPWR, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGIO, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGVTALRM, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGXFSZ, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGXCPU, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGURG, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGTTIN, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGCONT, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGCHLD, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGSTKFLT, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGALRM, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGUSR2, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGSEGV, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGUSR1, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGFPE, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGBUS, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGABRT, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGTRAP, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGILL, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+rt_sigaction(SIGHUP, {0x402f00, ~[RTMIN RT_1], SA_RESTORER, 0x7fc5b0b3e0e0}, NULL, 8) = 0
+open("/proc/self/stat", O_RDONLY)       = 3
+read(3, "13970 (ps) R 13966 13966 6386 34"..., 1024) = 313
+close(3)                                = 0
+ioctl(1, TIOCGWINSZ, 0x7ffe4c7a54d0)    = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, TIOCGWINSZ, 0x7ffe4c7a54d0)    = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(0, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffe4c7a5440) = -1 ENOTTY (Inappropriate ioctl for device)
+geteuid()                               = 10809
+open("/proc/uptime", O_RDONLY)          = 3
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "3268478.68 78413344.72\n", 2047) = 23
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=2492, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b14fa000
+read(4, "# Locale name alias data base.\n#"..., 4096) = 2492
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7fc5b14fa000, 4096)            = 0
+open("/usr/share/locale/ru_RU.UTF-8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru_RU.utf8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru_RU/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru.UTF-8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru.utf8/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/ru/LC_MESSAGES/procps-ng.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/proc/sys/kernel/pid_max", O_RDONLY) = 4
+read(4, "32768\n", 24)                  = 6
+close(4)                                = 0
+mmap(NULL, 139264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b14b8000
+mprotect(0x7fc5b14d9000, 4096, PROT_NONE) = 0
+open("/proc/meminfo", O_RDONLY)         = 4
+lseek(4, 0, SEEK_SET)                   = 0
+read(4, "MemTotal:       66112616 kB\nMemF"..., 2047) = 1198
+stat("/proc/self/task", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+openat(AT_FDCWD, "/proc", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b1497000
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b1476000
+getdents(5, /* 477 entries */, 32768)   = 12464
+stat("/proc/1", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1/stat", O_RDONLY)          = 6
+read(6, "1 (systemd) S 0 1 1 0 -1 4202752"..., 1024) = 198
+close(6)                                = 0
+open("/proc/1/status", O_RDONLY)        = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 781
+close(6)                                = 0
+fstat(1, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc5b14fa000
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 6, 0) = 0x7fc5b14f3000
+close(6)                                = 0
+stat("/proc/2", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2/stat", O_RDONLY)          = 6
+read(6, "2 (kthreadd) S 0 0 0 0 -1 213817"..., 1024) = 149
+close(6)                                = 0
+open("/proc/2/status", O_RDONLY)        = 6
+read(6, "Name:\tkthreadd\nState:\tS (sleepin"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/3", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/3/stat", O_RDONLY)          = 6
+read(6, "3 (ksoftirqd/0) S 2 0 0 0 -1 692"..., 1024) = 159
+close(6)                                = 0
+open("/proc/3/status", O_RDONLY)        = 6
+read(6, "Name:\tksoftirqd/0\nState:\tS (slee"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/5", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5/stat", O_RDONLY)          = 6
+read(6, "5 (kworker/0:0H) S 2 0 0 0 -1 69"..., 1024) = 156
+close(6)                                = 0
+open("/proc/5/status", O_RDONLY)        = 6
+read(6, "Name:\tkworker/0:0H\nState:\tS (sle"..., 1024) = 543
+close(6)                                = 0
+stat("/proc/7", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7/stat", O_RDONLY)          = 6
+read(6, "7 (rcu_sched) S 2 0 0 0 -1 21381"..., 1024) = 156
+close(6)                                = 0
+open("/proc/7/status", O_RDONLY)        = 6
+read(6, "Name:\trcu_sched\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/8", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/8/stat", O_RDONLY)          = 6
+read(6, "8 (rcu_bh) S 2 0 0 0 -1 2138176 "..., 1024) = 148
+close(6)                                = 0
+open("/proc/8/status", O_RDONLY)        = 6
+read(6, "Name:\trcu_bh\nState:\tS (sleeping)"..., 1024) = 540
+close(6)                                = 0
+stat("/proc/9", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/9/stat", O_RDONLY)          = 6
+read(6, "9 (migration/0) S 2 0 0 0 -1 692"..., 1024) = 158
+close(6)                                = 0
+open("/proc/9/status", O_RDONLY)        = 6
+read(6, "Name:\tmigration/0\nState:\tS (slee"..., 1024) = 546
+close(6)                                = 0
+stat("/proc/10", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/10/stat", O_RDONLY)         = 6
+read(6, "10 (watchdog/0) S 2 0 0 0 -1 692"..., 1024) = 161
+close(6)                                = 0
+open("/proc/10/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/0\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/11", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/11/stat", O_RDONLY)         = 6
+read(6, "11 (watchdog/1) S 2 0 0 0 -1 692"..., 1024) = 161
+close(6)                                = 0
+open("/proc/11/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/1\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/12", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/12/stat", O_RDONLY)         = 6
+read(6, "12 (migration/1) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/12/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/1\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/13", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13/stat", O_RDONLY)         = 6
+read(6, "13 (ksoftirqd/1) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/13/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/1\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/15", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/15/stat", O_RDONLY)         = 6
+read(6, "15 (kworker/1:0H) S 2 0 0 0 -1 6"..., 1024) = 157
+close(6)                                = 0
+open("/proc/15/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/1:0H\nState:\tS (sle"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/16", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/16/stat", O_RDONLY)         = 6
+read(6, "16 (watchdog/2) S 2 0 0 0 -1 692"..., 1024) = 160
+close(6)                                = 0
+open("/proc/16/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/2\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/17", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/17/stat", O_RDONLY)         = 6
+read(6, "17 (migration/2) S 2 0 0 0 -1 69"..., 1024) = 159
+close(6)                                = 0
+open("/proc/17/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/2\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/18", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/18/stat", O_RDONLY)         = 6
+read(6, "18 (ksoftirqd/2) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/18/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/2\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/20", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/20/stat", O_RDONLY)         = 6
+read(6, "20 (kworker/2:0H) S 2 0 0 0 -1 6"..., 1024) = 157
+close(6)                                = 0
+open("/proc/20/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/2:0H\nState:\tS (sle"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/21", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/21/stat", O_RDONLY)         = 6
+read(6, "21 (watchdog/3) S 2 0 0 0 -1 692"..., 1024) = 160
+close(6)                                = 0
+open("/proc/21/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/3\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/22", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/22/stat", O_RDONLY)         = 6
+read(6, "22 (migration/3) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/22/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/3\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/23", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/23/stat", O_RDONLY)         = 6
+read(6, "23 (ksoftirqd/3) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/23/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/3\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/25", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25/stat", O_RDONLY)         = 6
+read(6, "25 (kworker/3:0H) S 2 0 0 0 -1 6"..., 1024) = 157
+close(6)                                = 0
+open("/proc/25/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/3:0H\nState:\tS (sle"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/26", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/26/stat", O_RDONLY)         = 6
+read(6, "26 (watchdog/4) S 2 0 0 0 -1 692"..., 1024) = 161
+close(6)                                = 0
+open("/proc/26/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/4\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/27", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/27/stat", O_RDONLY)         = 6
+read(6, "27 (migration/4) S 2 0 0 0 -1 69"..., 1024) = 159
+close(6)                                = 0
+open("/proc/27/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/4\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/28", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/28/stat", O_RDONLY)         = 6
+read(6, "28 (ksoftirqd/4) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/28/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/4\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/30", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/30/stat", O_RDONLY)         = 6
+read(6, "30 (kworker/4:0H) S 2 0 0 0 -1 6"..., 1024) = 157
+close(6)                                = 0
+open("/proc/30/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/4:0H\nState:\tS (sle"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/31", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/31/stat", O_RDONLY)         = 6
+read(6, "31 (watchdog/5) S 2 0 0 0 -1 692"..., 1024) = 160
+close(6)                                = 0
+open("/proc/31/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/5\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/32", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/32/stat", O_RDONLY)         = 6
+read(6, "32 (migration/5) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/32/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/5\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/33", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/33/stat", O_RDONLY)         = 6
+read(6, "33 (ksoftirqd/5) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/33/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/5\nState:\tS (slee"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/35", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/35/stat", O_RDONLY)         = 6
+read(6, "35 (kworker/5:0H) S 2 0 0 0 -1 6"..., 1024) = 157
+close(6)                                = 0
+open("/proc/35/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/5:0H\nState:\tS (sle"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/36", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/36/stat", O_RDONLY)         = 6
+read(6, "36 (watchdog/6) S 2 0 0 0 -1 692"..., 1024) = 161
+close(6)                                = 0
+open("/proc/36/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/6\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/37", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/37/stat", O_RDONLY)         = 6
+read(6, "37 (migration/6) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/37/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/6\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/38", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/38/stat", O_RDONLY)         = 6
+read(6, "38 (ksoftirqd/6) S 2 0 0 0 -1 69"..., 1024) = 161
+close(6)                                = 0
+open("/proc/38/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/6\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/40", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/40/stat", O_RDONLY)         = 6
+read(6, "40 (kworker/6:0H) S 2 0 0 0 -1 6"..., 1024) = 158
+close(6)                                = 0
+open("/proc/40/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/6:0H\nState:\tS (sle"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/41", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/41/stat", O_RDONLY)         = 6
+read(6, "41 (watchdog/7) S 2 0 0 0 -1 692"..., 1024) = 161
+close(6)                                = 0
+open("/proc/41/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/7\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/42", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/42/stat", O_RDONLY)         = 6
+read(6, "42 (migration/7) S 2 0 0 0 -1 69"..., 1024) = 161
+close(6)                                = 0
+open("/proc/42/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/7\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/43", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/43/stat", O_RDONLY)         = 6
+read(6, "43 (ksoftirqd/7) S 2 0 0 0 -1 69"..., 1024) = 161
+close(6)                                = 0
+open("/proc/43/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/7\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/45", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/45/stat", O_RDONLY)         = 6
+read(6, "45 (kworker/7:0H) S 2 0 0 0 -1 6"..., 1024) = 158
+close(6)                                = 0
+open("/proc/45/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/7:0H\nState:\tS (sle"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/46", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/46/stat", O_RDONLY)         = 6
+read(6, "46 (watchdog/8) S 2 0 0 0 -1 692"..., 1024) = 161
+close(6)                                = 0
+open("/proc/46/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/8\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/47", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/47/stat", O_RDONLY)         = 6
+read(6, "47 (migration/8) S 2 0 0 0 -1 69"..., 1024) = 160
+close(6)                                = 0
+open("/proc/47/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/8\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/48", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/48/stat", O_RDONLY)         = 6
+read(6, "48 (ksoftirqd/8) S 2 0 0 0 -1 69"..., 1024) = 161
+close(6)                                = 0
+open("/proc/48/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/8\nState:\tS (slee"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/50", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/50/stat", O_RDONLY)         = 6
+read(6, "50 (kworker/8:0H) S 2 0 0 0 -1 6"..., 1024) = 158
+close(6)                                = 0
+open("/proc/50/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/8:0H\nState:\tS (sle"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/51", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/51/stat", O_RDONLY)         = 6
+read(6, "51 (watchdog/9) S 2 0 0 0 -1 692"..., 1024) = 161
+close(6)                                = 0
+open("/proc/51/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/9\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/52", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/52/stat", O_RDONLY)         = 6
+read(6, "52 (migration/9) S 2 0 0 0 -1 69"..., 1024) = 161
+close(6)                                = 0
+open("/proc/52/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/9\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/53", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/53/stat", O_RDONLY)         = 6
+read(6, "53 (ksoftirqd/9) S 2 0 0 0 -1 69"..., 1024) = 161
+close(6)                                = 0
+open("/proc/53/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/9\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/55", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/55/stat", O_RDONLY)         = 6
+read(6, "55 (kworker/9:0H) S 2 0 0 0 -1 6"..., 1024) = 158
+close(6)                                = 0
+open("/proc/55/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/9:0H\nState:\tS (sle"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/56", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/56/stat", O_RDONLY)         = 6
+read(6, "56 (watchdog/10) S 2 0 0 0 -1 69"..., 1024) = 163
+close(6)                                = 0
+open("/proc/56/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/10\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/57", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/57/stat", O_RDONLY)         = 6
+read(6, "57 (migration/10) S 2 0 0 0 -1 6"..., 1024) = 162
+close(6)                                = 0
+open("/proc/57/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/10\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/58", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/58/stat", O_RDONLY)         = 6
+read(6, "58 (ksoftirqd/10) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/58/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/10\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/60", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/60/stat", O_RDONLY)         = 6
+read(6, "60 (kworker/10:0H) S 2 0 0 0 -1 "..., 1024) = 160
+close(6)                                = 0
+open("/proc/60/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/10:0H\nState:\tS (sl"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/61", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/61/stat", O_RDONLY)         = 6
+read(6, "61 (watchdog/11) S 2 0 0 0 -1 69"..., 1024) = 163
+close(6)                                = 0
+open("/proc/61/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/11\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/62", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/62/stat", O_RDONLY)         = 6
+read(6, "62 (migration/11) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/62/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/11\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/63", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/63/stat", O_RDONLY)         = 6
+read(6, "63 (ksoftirqd/11) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/63/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/11\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/65", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/65/stat", O_RDONLY)         = 6
+read(6, "65 (kworker/11:0H) S 2 0 0 0 -1 "..., 1024) = 160
+close(6)                                = 0
+open("/proc/65/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/11:0H\nState:\tS (sl"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/66", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/66/stat", O_RDONLY)         = 6
+read(6, "66 (watchdog/12) S 2 0 0 0 -1 69"..., 1024) = 163
+close(6)                                = 0
+open("/proc/66/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/12\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/67", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/67/stat", O_RDONLY)         = 6
+read(6, "67 (migration/12) S 2 0 0 0 -1 6"..., 1024) = 162
+close(6)                                = 0
+open("/proc/67/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/12\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/68", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/68/stat", O_RDONLY)         = 6
+read(6, "68 (ksoftirqd/12) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/68/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/12\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/70", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/70/stat", O_RDONLY)         = 6
+read(6, "70 (kworker/12:0H) S 2 0 0 0 -1 "..., 1024) = 160
+close(6)                                = 0
+open("/proc/70/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/12:0H\nState:\tS (sl"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/71", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/71/stat", O_RDONLY)         = 6
+read(6, "71 (watchdog/13) S 2 0 0 0 -1 69"..., 1024) = 163
+close(6)                                = 0
+open("/proc/71/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/13\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/72", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/72/stat", O_RDONLY)         = 6
+read(6, "72 (migration/13) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/72/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/13\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/73", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/73/stat", O_RDONLY)         = 6
+read(6, "73 (ksoftirqd/13) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/73/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/13\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/75", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/75/stat", O_RDONLY)         = 6
+read(6, "75 (kworker/13:0H) S 2 0 0 0 -1 "..., 1024) = 160
+close(6)                                = 0
+open("/proc/75/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/13:0H\nState:\tS (sl"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/76", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/76/stat", O_RDONLY)         = 6
+read(6, "76 (watchdog/14) S 2 0 0 0 -1 69"..., 1024) = 163
+close(6)                                = 0
+open("/proc/76/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/14\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/77", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/77/stat", O_RDONLY)         = 6
+read(6, "77 (migration/14) S 2 0 0 0 -1 6"..., 1024) = 162
+close(6)                                = 0
+open("/proc/77/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/14\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/78", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/78/stat", O_RDONLY)         = 6
+read(6, "78 (ksoftirqd/14) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/78/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/14\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/80", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/80/stat", O_RDONLY)         = 6
+read(6, "80 (kworker/14:0H) S 2 0 0 0 -1 "..., 1024) = 160
+close(6)                                = 0
+open("/proc/80/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/14:0H\nState:\tS (sl"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/81", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/81/stat", O_RDONLY)         = 6
+read(6, "81 (watchdog/15) S 2 0 0 0 -1 69"..., 1024) = 163
+close(6)                                = 0
+open("/proc/81/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/15\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/82", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/82/stat", O_RDONLY)         = 6
+read(6, "82 (migration/15) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/82/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/15\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/83", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/83/stat", O_RDONLY)         = 6
+read(6, "83 (ksoftirqd/15) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/83/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/15\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/85", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/85/stat", O_RDONLY)         = 6
+read(6, "85 (kworker/15:0H) S 2 0 0 0 -1 "..., 1024) = 160
+close(6)                                = 0
+open("/proc/85/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/15:0H\nState:\tS (sl"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/86", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/86/stat", O_RDONLY)         = 6
+read(6, "86 (watchdog/16) S 2 0 0 0 -1 69"..., 1024) = 163
+close(6)                                = 0
+open("/proc/86/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/16\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/87", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/87/stat", O_RDONLY)         = 6
+read(6, "87 (migration/16) S 2 0 0 0 -1 6"..., 1024) = 162
+close(6)                                = 0
+open("/proc/87/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/16\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/88", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/88/stat", O_RDONLY)         = 6
+read(6, "88 (ksoftirqd/16) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/88/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/16\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/90", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/90/stat", O_RDONLY)         = 6
+read(6, "90 (kworker/16:0H) S 2 0 0 0 -1 "..., 1024) = 160
+close(6)                                = 0
+open("/proc/90/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/16:0H\nState:\tS (sl"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/91", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/91/stat", O_RDONLY)         = 6
+read(6, "91 (watchdog/17) S 2 0 0 0 -1 69"..., 1024) = 163
+close(6)                                = 0
+open("/proc/91/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/17\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/92", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/92/stat", O_RDONLY)         = 6
+read(6, "92 (migration/17) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/92/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/17\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/93", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/93/stat", O_RDONLY)         = 6
+read(6, "93 (ksoftirqd/17) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/93/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/17\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/95", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/95/stat", O_RDONLY)         = 6
+read(6, "95 (kworker/17:0H) S 2 0 0 0 -1 "..., 1024) = 160
+close(6)                                = 0
+open("/proc/95/status", O_RDONLY)       = 6
+read(6, "Name:\tkworker/17:0H\nState:\tS (sl"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/96", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/96/stat", O_RDONLY)         = 6
+read(6, "96 (watchdog/18) S 2 0 0 0 -1 69"..., 1024) = 163
+close(6)                                = 0
+open("/proc/96/status", O_RDONLY)       = 6
+read(6, "Name:\twatchdog/18\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/97", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/97/stat", O_RDONLY)         = 6
+read(6, "97 (migration/18) S 2 0 0 0 -1 6"..., 1024) = 162
+close(6)                                = 0
+open("/proc/97/status", O_RDONLY)       = 6
+read(6, "Name:\tmigration/18\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/98", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/98/stat", O_RDONLY)         = 6
+read(6, "98 (ksoftirqd/18) S 2 0 0 0 -1 6"..., 1024) = 163
+close(6)                                = 0
+open("/proc/98/status", O_RDONLY)       = 6
+read(6, "Name:\tksoftirqd/18\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/100", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/100/stat", O_RDONLY)        = 6
+read(6, "100 (kworker/18:0H) S 2 0 0 0 -1"..., 1024) = 161
+close(6)                                = 0
+open("/proc/100/status", O_RDONLY)      = 6
+read(6, "Name:\tkworker/18:0H\nState:\tS (sl"..., 1024) = 549
+close(6)                                = 0
+stat("/proc/101", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/101/stat", O_RDONLY)        = 6
+read(6, "101 (watchdog/19) S 2 0 0 0 -1 6"..., 1024) = 164
+close(6)                                = 0
+open("/proc/101/status", O_RDONLY)      = 6
+read(6, "Name:\twatchdog/19\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/102", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/102/stat", O_RDONLY)        = 6
+read(6, "102 (migration/19) S 2 0 0 0 -1 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/102/status", O_RDONLY)      = 6
+read(6, "Name:\tmigration/19\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/103", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/103/stat", O_RDONLY)        = 6
+read(6, "103 (ksoftirqd/19) S 2 0 0 0 -1 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/103/status", O_RDONLY)      = 6
+read(6, "Name:\tksoftirqd/19\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/105", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/105/stat", O_RDONLY)        = 6
+read(6, "105 (kworker/19:0H) S 2 0 0 0 -1"..., 1024) = 161
+close(6)                                = 0
+open("/proc/105/status", O_RDONLY)      = 6
+read(6, "Name:\tkworker/19:0H\nState:\tS (sl"..., 1024) = 549
+close(6)                                = 0
+stat("/proc/106", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/106/stat", O_RDONLY)        = 6
+read(6, "106 (watchdog/20) S 2 0 0 0 -1 6"..., 1024) = 164
+close(6)                                = 0
+open("/proc/106/status", O_RDONLY)      = 6
+read(6, "Name:\twatchdog/20\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/107", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/107/stat", O_RDONLY)        = 6
+read(6, "107 (migration/20) S 2 0 0 0 -1 "..., 1024) = 163
+close(6)                                = 0
+open("/proc/107/status", O_RDONLY)      = 6
+read(6, "Name:\tmigration/20\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/108", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/108/stat", O_RDONLY)        = 6
+read(6, "108 (ksoftirqd/20) S 2 0 0 0 -1 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/108/status", O_RDONLY)      = 6
+read(6, "Name:\tksoftirqd/20\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/110", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/110/stat", O_RDONLY)        = 6
+read(6, "110 (kworker/20:0H) S 2 0 0 0 -1"..., 1024) = 161
+close(6)                                = 0
+open("/proc/110/status", O_RDONLY)      = 6
+read(6, "Name:\tkworker/20:0H\nState:\tS (sl"..., 1024) = 549
+close(6)                                = 0
+stat("/proc/111", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/111/stat", O_RDONLY)        = 6
+read(6, "111 (watchdog/21) S 2 0 0 0 -1 6"..., 1024) = 164
+close(6)                                = 0
+open("/proc/111/status", O_RDONLY)      = 6
+read(6, "Name:\twatchdog/21\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/112", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/112/stat", O_RDONLY)        = 6
+read(6, "112 (migration/21) S 2 0 0 0 -1 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/112/status", O_RDONLY)      = 6
+read(6, "Name:\tmigration/21\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/113", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/113/stat", O_RDONLY)        = 6
+read(6, "113 (ksoftirqd/21) S 2 0 0 0 -1 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/113/status", O_RDONLY)      = 6
+read(6, "Name:\tksoftirqd/21\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/115", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/115/stat", O_RDONLY)        = 6
+read(6, "115 (kworker/21:0H) S 2 0 0 0 -1"..., 1024) = 161
+close(6)                                = 0
+open("/proc/115/status", O_RDONLY)      = 6
+read(6, "Name:\tkworker/21:0H\nState:\tS (sl"..., 1024) = 549
+close(6)                                = 0
+stat("/proc/116", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/116/stat", O_RDONLY)        = 6
+read(6, "116 (watchdog/22) S 2 0 0 0 -1 6"..., 1024) = 164
+close(6)                                = 0
+open("/proc/116/status", O_RDONLY)      = 6
+read(6, "Name:\twatchdog/22\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/117", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/117/stat", O_RDONLY)        = 6
+read(6, "117 (migration/22) S 2 0 0 0 -1 "..., 1024) = 163
+close(6)                                = 0
+open("/proc/117/status", O_RDONLY)      = 6
+read(6, "Name:\tmigration/22\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/118", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/118/stat", O_RDONLY)        = 6
+read(6, "118 (ksoftirqd/22) S 2 0 0 0 -1 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/118/status", O_RDONLY)      = 6
+read(6, "Name:\tksoftirqd/22\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/120", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/120/stat", O_RDONLY)        = 6
+read(6, "120 (kworker/22:0H) S 2 0 0 0 -1"..., 1024) = 161
+close(6)                                = 0
+open("/proc/120/status", O_RDONLY)      = 6
+read(6, "Name:\tkworker/22:0H\nState:\tS (sl"..., 1024) = 549
+close(6)                                = 0
+stat("/proc/121", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/121/stat", O_RDONLY)        = 6
+read(6, "121 (watchdog/23) S 2 0 0 0 -1 6"..., 1024) = 164
+close(6)                                = 0
+open("/proc/121/status", O_RDONLY)      = 6
+read(6, "Name:\twatchdog/23\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/122", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/122/stat", O_RDONLY)        = 6
+read(6, "122 (migration/23) S 2 0 0 0 -1 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/122/status", O_RDONLY)      = 6
+read(6, "Name:\tmigration/23\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/123", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/123/stat", O_RDONLY)        = 6
+read(6, "123 (ksoftirqd/23) S 2 0 0 0 -1 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/123/status", O_RDONLY)      = 6
+read(6, "Name:\tksoftirqd/23\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/125", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/125/stat", O_RDONLY)        = 6
+read(6, "125 (kworker/23:0H) S 2 0 0 0 -1"..., 1024) = 161
+close(6)                                = 0
+open("/proc/125/status", O_RDONLY)      = 6
+read(6, "Name:\tkworker/23:0H\nState:\tS (sl"..., 1024) = 549
+close(6)                                = 0
+stat("/proc/126", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/126/stat", O_RDONLY)        = 6
+read(6, "126 (khelper) S 2 0 0 0 -1 69247"..., 1024) = 154
+close(6)                                = 0
+open("/proc/126/status", O_RDONLY)      = 6
+read(6, "Name:\tkhelper\nState:\tS (sleeping"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/127", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/127/stat", O_RDONLY)        = 6
+read(6, "127 (kdevtmpfs) S 2 0 0 0 -1 213"..., 1024) = 154
+close(6)                                = 0
+open("/proc/127/status", O_RDONLY)      = 6
+read(6, "Name:\tkdevtmpfs\nState:\tS (sleepi"..., 1024) = 549
+close(6)                                = 0
+stat("/proc/128", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/128/stat", O_RDONLY)        = 6
+read(6, "128 (netns) S 2 0 0 0 -1 6924707"..., 1024) = 152
+close(6)                                = 0
+open("/proc/128/status", O_RDONLY)      = 6
+read(6, "Name:\tnetns\nState:\tS (sleeping)\n"..., 1024) = 543
+close(6)                                = 0
+stat("/proc/129", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/129/stat", O_RDONLY)        = 6
+read(6, "129 (khungtaskd) S 2 0 0 0 -1 21"..., 1024) = 157
+close(6)                                = 0
+open("/proc/129/status", O_RDONLY)      = 6
+read(6, "Name:\tkhungtaskd\nState:\tS (sleep"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/130", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/130/stat", O_RDONLY)        = 6
+read(6, "130 (writeback) S 2 0 0 0 -1 692"..., 1024) = 156
+close(6)                                = 0
+open("/proc/130/status", O_RDONLY)      = 6
+read(6, "Name:\twriteback\nState:\tS (sleepi"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/131", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/131/stat", O_RDONLY)        = 6
+read(6, "131 (ksmd) S 2 0 0 0 -1 10758472"..., 1024) = 152
+close(6)                                = 0
+open("/proc/131/status", O_RDONLY)      = 6
+read(6, "Name:\tksmd\nState:\tS (sleeping)\nT"..., 1024) = 542
+close(6)                                = 0
+stat("/proc/132", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/132/stat", O_RDONLY)        = 6
+read(6, "132 (khugepaged) S 2 0 0 0 -1 10"..., 1024) = 159
+close(6)                                = 0
+open("/proc/132/status", O_RDONLY)      = 6
+read(6, "Name:\tkhugepaged\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/133", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/133/stat", O_RDONLY)        = 6
+read(6, "133 (crypto) S 2 0 0 0 -1 692470"..., 1024) = 153
+close(6)                                = 0
+open("/proc/133/status", O_RDONLY)      = 6
+read(6, "Name:\tcrypto\nState:\tS (sleeping)"..., 1024) = 544
+close(6)                                = 0
+stat("/proc/134", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/134/stat", O_RDONLY)        = 6
+read(6, "134 (kintegrityd) S 2 0 0 0 -1 6"..., 1024) = 158
+close(6)                                = 0
+open("/proc/134/status", O_RDONLY)      = 6
+read(6, "Name:\tkintegrityd\nState:\tS (slee"..., 1024) = 549
+close(6)                                = 0
+stat("/proc/135", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/135/stat", O_RDONLY)        = 6
+read(6, "135 (bioset) S 2 0 0 0 -1 692470"..., 1024) = 153
+close(6)                                = 0
+open("/proc/135/status", O_RDONLY)      = 6
+read(6, "Name:\tbioset\nState:\tS (sleeping)"..., 1024) = 544
+close(6)                                = 0
+stat("/proc/136", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/136/stat", O_RDONLY)        = 6
+read(6, "136 (kblockd) S 2 0 0 0 -1 69247"..., 1024) = 154
+close(6)                                = 0
+open("/proc/136/status", O_RDONLY)      = 6
+read(6, "Name:\tkblockd\nState:\tS (sleeping"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/138", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/138/stat", O_RDONLY)        = 6
+read(6, "138 (kswapd0) S 2 0 0 0 -1 10758"..., 1024) = 154
+close(6)                                = 0
+open("/proc/138/status", O_RDONLY)      = 6
+read(6, "Name:\tkswapd0\nState:\tS (sleeping"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/139", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/139/stat", O_RDONLY)        = 6
+read(6, "139 (vmstat) S 2 0 0 0 -1 692470"..., 1024) = 154
+close(6)                                = 0
+open("/proc/139/status", O_RDONLY)      = 6
+read(6, "Name:\tvmstat\nState:\tS (sleeping)"..., 1024) = 544
+close(6)                                = 0
+stat("/proc/140", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/140/stat", O_RDONLY)        = 6
+read(6, "140 (fsnotify_mark) S 2 0 0 0 -1"..., 1024) = 159
+close(6)                                = 0
+open("/proc/140/status", O_RDONLY)      = 6
+read(6, "Name:\tfsnotify_mark\nState:\tS (sl"..., 1024) = 553
+close(6)                                = 0
+write(1, "  PID TTY          TIME CMD\n    "..., 4096) = 4096
+stat("/proc/146", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/146/stat", O_RDONLY)        = 6
+read(6, "146 (kthrotld) S 2 0 0 0 -1 6924"..., 1024) = 156
+close(6)                                = 0
+open("/proc/146/status", O_RDONLY)      = 6
+read(6, "Name:\tkthrotld\nState:\tS (sleepin"..., 1024) = 546
+close(6)                                = 0
+stat("/proc/148", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/148/stat", O_RDONLY)        = 6
+read(6, "148 (ipv6_addrconf) S 2 0 0 0 -1"..., 1024) = 161
+close(6)                                = 0
+open("/proc/148/status", O_RDONLY)      = 6
+read(6, "Name:\tipv6_addrconf\nState:\tS (sl"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/150", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/150/stat", O_RDONLY)        = 6
+read(6, "150 (deferwq) S 2 0 0 0 -1 69247"..., 1024) = 155
+close(6)                                = 0
+open("/proc/150/status", O_RDONLY)      = 6
+read(6, "Name:\tdeferwq\nState:\tS (sleeping"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/233", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/233/stat", O_RDONLY)        = 6
+read(6, "233 (khubd) S 2 0 0 0 -1 1075847"..., 1024) = 154
+close(6)                                = 0
+open("/proc/233/status", O_RDONLY)      = 6
+read(6, "Name:\tkhubd\nState:\tS (sleeping)\n"..., 1024) = 544
+close(6)                                = 0
+stat("/proc/234", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/234/stat", O_RDONLY)        = 6
+read(6, "234 (kpsmoused) S 2 0 0 0 -1 692"..., 1024) = 157
+close(6)                                = 0
+open("/proc/234/status", O_RDONLY)      = 6
+read(6, "Name:\tkpsmoused\nState:\tS (sleepi"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/236", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/236/stat", O_RDONLY)        = 6
+read(6, "236 (ata_sff) S 2 0 0 0 -1 69247"..., 1024) = 155
+close(6)                                = 0
+open("/proc/236/status", O_RDONLY)      = 6
+read(6, "Name:\tata_sff\nState:\tS (sleeping"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/240", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/240/stat", O_RDONLY)        = 6
+read(6, "240 (scsi_eh_0) S 2 0 0 0 -1 213"..., 1024) = 155
+close(6)                                = 0
+open("/proc/240/status", O_RDONLY)      = 6
+read(6, "Name:\tscsi_eh_0\nState:\tS (sleepi"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/241", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/241/stat", O_RDONLY)        = 6
+read(6, "241 (scsi_tmf_0) S 2 0 0 0 -1 69"..., 1024) = 158
+close(6)                                = 0
+open("/proc/241/status", O_RDONLY)      = 6
+read(6, "Name:\tscsi_tmf_0\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/242", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/242/stat", O_RDONLY)        = 6
+read(6, "242 (scsi_eh_1) S 2 0 0 0 -1 213"..., 1024) = 155
+close(6)                                = 0
+open("/proc/242/status", O_RDONLY)      = 6
+read(6, "Name:\tscsi_eh_1\nState:\tS (sleepi"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/243", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/243/stat", O_RDONLY)        = 6
+read(6, "243 (scsi_tmf_1) S 2 0 0 0 -1 69"..., 1024) = 158
+close(6)                                = 0
+open("/proc/243/status", O_RDONLY)      = 6
+read(6, "Name:\tscsi_tmf_1\nState:\tS (sleep"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/268", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/268/stat", O_RDONLY)        = 6
+read(6, "268 (kworker/8:1H) S 2 0 0 0 -1 "..., 1024) = 162
+close(6)                                = 0
+open("/proc/268/status", O_RDONLY)      = 6
+read(6, "Name:\tkworker/8:1H\nState:\tS (sle"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/270", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/270/stat", O_RDONLY)        = 6
+read(6, "270 (jbd2/vda1-8) S 2 0 0 0 -1 2"..., 1024) = 167
+close(6)                                = 0
+open("/proc/270/status", O_RDONLY)      = 6
+read(6, "Name:\tjbd2/vda1-8\nState:\tS (slee"..., 1024) = 559
+close(6)                                = 0
+stat("/proc/271", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/271/stat", O_RDONLY)        = 6
+read(6, "271 (ext4-rsv-conver) S 2 0 0 0 "..., 1024) = 163
+close(6)                                = 0
+open("/proc/271/status", O_RDONLY)      = 6
+read(6, "Name:\text4-rsv-conver\nState:\tS ("..., 1024) = 553
+close(6)                                = 0
+stat("/proc/319", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/319/stat", O_RDONLY)        = 6
+read(6, "319 (kauditd) S 2 0 0 0 -1 21054"..., 1024) = 154
+close(6)                                = 0
+open("/proc/319/status", O_RDONLY)      = 6
+read(6, "Name:\tkauditd\nState:\tS (sleeping"..., 1024) = 545
+close(6)                                = 0
+stat("/proc/326", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/326/stat", O_RDONLY)        = 6
+read(6, "326 (systemd-journal) S 1 326 32"..., 1024) = 188
+close(6)                                = 0
+open("/proc/326/status", O_RDONLY)      = 6
+read(6, "Name:\tsystemd-journal\nState:\tS ("..., 1024) = 793
+close(6)                                = 0
+stat("/proc/330", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/330/stat", O_RDONLY)        = 6
+read(6, "330 (systemd-udevd) S 1 330 330 "..., 1024) = 188
+close(6)                                = 0
+open("/proc/330/status", O_RDONLY)      = 6
+read(6, "Name:\tsystemd-udevd\nState:\tS (sl"..., 1024) = 786
+close(6)                                = 0
+stat("/proc/411", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/411/stat", O_RDONLY)        = 6
+read(6, "411 (vballoon) S 2 0 0 0 -1 2105"..., 1024) = 155
+close(6)                                = 0
+open("/proc/411/status", O_RDONLY)      = 6
+read(6, "Name:\tvballoon\nState:\tS (sleepin"..., 1024) = 546
+close(6)                                = 0
+stat("/proc/448", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/448/stat", O_RDONLY)        = 6
+read(6, "448 (ttm_swap) S 2 0 0 0 -1 6924"..., 1024) = 157
+close(6)                                = 0
+open("/proc/448/status", O_RDONLY)      = 6
+read(6, "Name:\tttm_swap\nState:\tS (sleepin"..., 1024) = 546
+close(6)                                = 0
+stat("/proc/479", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/479/stat", O_RDONLY)        = 6
+read(6, "479 (jbd2/vdb-8) S 2 0 0 0 -1 21"..., 1024) = 161
+close(6)                                = 0
+open("/proc/479/status", O_RDONLY)      = 6
+read(6, "Name:\tjbd2/vdb-8\nState:\tS (sleep"..., 1024) = 555
+close(6)                                = 0
+stat("/proc/480", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/480/stat", O_RDONLY)        = 6
+read(6, "480 (ext4-rsv-conver) S 2 0 0 0 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/480/status", O_RDONLY)      = 6
+read(6, "Name:\text4-rsv-conver\nState:\tS ("..., 1024) = 553
+close(6)                                = 0
+stat("/proc/482", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/482/stat", O_RDONLY)        = 6
+read(6, "482 (jbd2/vdc-8) S 2 0 0 0 -1 21"..., 1024) = 161
+close(6)                                = 0
+open("/proc/482/status", O_RDONLY)      = 6
+read(6, "Name:\tjbd2/vdc-8\nState:\tS (sleep"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/483", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/483/stat", O_RDONLY)        = 6
+read(6, "483 (ext4-rsv-conver) S 2 0 0 0 "..., 1024) = 164
+close(6)                                = 0
+open("/proc/483/status", O_RDONLY)      = 6
+read(6, "Name:\text4-rsv-conver\nState:\tS ("..., 1024) = 553
+close(6)                                = 0
+stat("/proc/494", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/494/stat", O_RDONLY)        = 6
+read(6, "494 (kworker/4:1H) S 2 0 0 0 -1 "..., 1024) = 161
+close(6)                                = 0
+open("/proc/494/status", O_RDONLY)      = 6
+read(6, "Name:\tkworker/4:1H\nState:\tS (sle"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/495", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/495/stat", O_RDONLY)        = 6
+read(6, "495 (kworker/21:1H) S 2 0 0 0 -1"..., 1024) = 163
+close(6)                                = 0
+open("/proc/495/status", O_RDONLY)      = 6
+read(6, "Name:\tkworker/21:1H\nState:\tS (sl"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/671", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/671/stat", O_RDONLY)        = 6
+read(6, "671 (rpcbind) S 1 671 671 0 -1 4"..., 1024) = 170
+close(6)                                = 0
+open("/proc/671/status", O_RDONLY)      = 6
+read(6, "Name:\trpcbind\nState:\tS (sleeping"..., 1024) = 782
+close(6)                                = 0
+stat("/proc/708", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/708/stat", O_RDONLY)        = 6
+read(6, "708 (rpc.statd) S 1 708 708 0 -1"..., 1024) = 169
+close(6)                                = 0
+open("/proc/708/status", O_RDONLY)      = 6
+read(6, "Name:\trpc.statd\nState:\tS (sleepi"..., 1024) = 803
+close(6)                                = 0
+stat("/proc/715", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/715/stat", O_RDONLY)        = 6
+read(6, "715 (rpciod) S 2 0 0 0 -1 692470"..., 1024) = 154
+close(6)                                = 0
+open("/proc/715/status", O_RDONLY)      = 6
+read(6, "Name:\trpciod\nState:\tS (sleeping)"..., 1024) = 544
+close(6)                                = 0
+stat("/proc/717", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/717/stat", O_RDONLY)        = 6
+read(6, "717 (nfsiod) S 2 0 0 0 -1 692470"..., 1024) = 154
+close(6)                                = 0
+open("/proc/717/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsiod\nState:\tS (sleeping)"..., 1024) = 544
+close(6)                                = 0
+stat("/proc/724", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/724/stat", O_RDONLY)        = 6
+read(6, "724 (rpc.idmapd) S 1 724 724 0 -"..., 1024) = 163
+close(6)                                = 0
+open("/proc/724/status", O_RDONLY)      = 6
+read(6, "Name:\trpc.idmapd\nState:\tS (sleep"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/725", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/725/stat", O_RDONLY)        = 6
+read(6, "725 (ModemManager) S 1 725 725 0"..., 1024) = 178
+close(6)                                = 0
+open("/proc/725/status", O_RDONLY)      = 6
+read(6, "Name:\tModemManager\nState:\tS (sle"..., 1024) = 785
+close(6)                                = 0
+stat("/proc/728", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/728/stat", O_RDONLY)        = 6
+read(6, "728 (atd) S 1 728 728 0 -1 10779"..., 1024) = 173
+close(6)                                = 0
+open("/proc/728/status", O_RDONLY)      = 6
+read(6, "Name:\tatd\nState:\tS (sleeping)\nTg"..., 1024) = 776
+close(6)                                = 0
+stat("/proc/729", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/729/stat", O_RDONLY)        = 6
+read(6, "729 (cron) S 1 729 729 0 -1 1077"..., 1024) = 184
+close(6)                                = 0
+open("/proc/729/status", O_RDONLY)      = 6
+read(6, "Name:\tcron\nState:\tS (sleeping)\nT"..., 1024) = 778
+close(6)                                = 0
+stat("/proc/732", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/732/stat", O_RDONLY)        = 6
+read(6, "732 (systemd-logind) S 1 732 732"..., 1024) = 175
+close(6)                                = 0
+open("/proc/732/status", O_RDONLY)      = 6
+read(6, "Name:\tsystemd-logind\nState:\tS (s"..., 1024) = 790
+close(6)                                = 0
+stat("/proc/741", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/741/stat", O_RDONLY)        = 6
+read(6, "741 (dbus-daemon) S 1 741 741 0 "..., 1024) = 181
+close(6)                                = 0
+open("/proc/741/status", O_RDONLY)      = 6
+read(6, "Name:\tdbus-daemon\nState:\tS (slee"..., 1024) = 809
+close(6)                                = 0
+stat("/proc/769", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/769/stat", O_RDONLY)        = 6
+read(6, "769 (nfsd4) S 2 0 0 0 -1 6924707"..., 1024) = 153
+close(6)                                = 0
+open("/proc/769/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd4\nState:\tS (sleeping)\n"..., 1024) = 543
+close(6)                                = 0
+stat("/proc/770", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/770/stat", O_RDONLY)        = 6
+read(6, "770 (nfsd4_callbacks) S 2 0 0 0 "..., 1024) = 163
+close(6)                                = 0
+open("/proc/770/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd4_callbacks\nState:\tS ("..., 1024) = 553
+close(6)                                = 0
+stat("/proc/771", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/771/stat", O_RDONLY)        = 6
+read(6, "771 (lockd) S 2 0 0 0 -1 2105408"..., 1024) = 153
+close(6)                                = 0
+open("/proc/771/status", O_RDONLY)      = 6
+read(6, "Name:\tlockd\nState:\tS (sleeping)\n"..., 1024) = 543
+close(6)                                = 0
+stat("/proc/774", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/774/stat", O_RDONLY)        = 6
+read(6, "774 (nfsd) S 2 0 0 0 -1 2105664 "..., 1024) = 158
+close(6)                                = 0
+open("/proc/774/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/775", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/775/stat", O_RDONLY)        = 6
+read(6, "775 (nfsd) S 2 0 0 0 -1 2105664 "..., 1024) = 157
+close(6)                                = 0
+open("/proc/775/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/776", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/776/stat", O_RDONLY)        = 6
+read(6, "776 (nfsd) S 2 0 0 0 -1 2105664 "..., 1024) = 158
+close(6)                                = 0
+open("/proc/776/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/777", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/777/stat", O_RDONLY)        = 6
+read(6, "777 (nfsd) S 2 0 0 0 -1 2105664 "..., 1024) = 158
+close(6)                                = 0
+open("/proc/777/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/778", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/778/stat", O_RDONLY)        = 6
+read(6, "778 (nfsd) S 2 0 0 0 -1 2105664 "..., 1024) = 158
+close(6)                                = 0
+open("/proc/778/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/779", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/779/stat", O_RDONLY)        = 6
+read(6, "779 (nfsd) S 2 0 0 0 -1 2105664 "..., 1024) = 158
+close(6)                                = 0
+open("/proc/779/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/780", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/780/stat", O_RDONLY)        = 6
+read(6, "780 (nfsd) S 2 0 0 0 -1 2105664 "..., 1024) = 158
+close(6)                                = 0
+open("/proc/780/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/781", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/781/stat", O_RDONLY)        = 6
+read(6, "781 (nfsd) S 2 0 0 0 -1 2105664 "..., 1024) = 158
+close(6)                                = 0
+open("/proc/781/status", O_RDONLY)      = 6
+read(6, "Name:\tnfsd\nState:\tS (sleeping)\nT"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/807", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/807/stat", O_RDONLY)        = 6
+read(6, "807 (rpc.rquotad) S 1 807 807 0 "..., 1024) = 174
+close(6)                                = 0
+open("/proc/807/status", O_RDONLY)      = 6
+read(6, "Name:\trpc.rquotad\nState:\tS (slee"..., 1024) = 786
+close(6)                                = 0
+stat("/proc/821", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/821/stat", O_RDONLY)        = 6
+read(6, "821 (rpc.mountd) S 1 821 821 0 -"..., 1024) = 173
+close(6)                                = 0
+open("/proc/821/status", O_RDONLY)      = 6
+read(6, "Name:\trpc.mountd\nState:\tS (sleep"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/1088", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1088/stat", O_RDONLY)       = 6
+read(6, "1088 (rsyslogd) S 1 1088 1088 0 "..., 1024) = 185
+close(6)                                = 0
+open("/proc/1088/status", O_RDONLY)     = 6
+read(6, "Name:\trsyslogd\nState:\tS (sleepin"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/1089", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1089/stat", O_RDONLY)       = 6
+read(6, "1089 (acpid) S 1 1089 1089 0 -1 "..., 1024) = 166
+close(6)                                = 0
+open("/proc/1089/status", O_RDONLY)     = 6
+read(6, "Name:\tacpid\nState:\tS (sleeping)\n"..., 1024) = 778
+close(6)                                = 0
+stat("/proc/1091", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1091/stat", O_RDONLY)       = 6
+read(6, "1091 (ntpd) S 1 1091 1091 0 -1 4"..., 1024) = 176
+close(6)                                = 0
+open("/proc/1091/status", O_RDONLY)     = 6
+read(6, "Name:\tntpd\nState:\tS (sleeping)\nT"..., 1024) = 803
+close(6)                                = 0
+stat("/proc/1097", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1097/stat", O_RDONLY)       = 6
+read(6, "1097 (agetty) S 1 1097 1097 1025"..., 1024) = 168
+close(6)                                = 0
+open("/proc/1097/status", O_RDONLY)     = 6
+read(6, "Name:\tagetty\nState:\tS (sleeping)"..., 1024) = 778
+close(6)                                = 0
+open("/proc/tty/drivers", O_RDONLY)     = 6
+read(6, "/dev/tty             /dev/tty   "..., 9999) = 465
+close(6)                                = 0
+stat("/dev/tty1", {st_mode=S_IFCHR|0620, st_rdev=makedev(4, 1), ...}) = 0
+stat("/proc/1101", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1101/stat", O_RDONLY)       = 6
+read(6, "1101 (lightdm) S 1 1101 1101 0 -"..., 1024) = 183
+close(6)                                = 0
+open("/proc/1101/status", O_RDONLY)     = 6
+read(6, "Name:\tlightdm\nState:\tS (sleeping"..., 1024) = 784
+close(6)                                = 0
+stat("/proc/1126", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1126/stat", O_RDONLY)       = 6
+read(6, "1126 (wicd) S 1 1125 1125 0 -1 4"..., 1024) = 202
+close(6)                                = 0
+open("/proc/1126/status", O_RDONLY)     = 6
+read(6, "Name:\twicd\nState:\tS (sleeping)\nT"..., 1024) = 787
+close(6)                                = 0
+stat("/proc/1131", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1131/stat", O_RDONLY)       = 6
+read(6, "1131 (Xorg) S 1101 1131 1131 103"..., 1024) = 193
+close(6)                                = 0
+open("/proc/1131/status", O_RDONLY)     = 6
+read(6, "Name:\tXorg\nState:\tS (sleeping)\nT"..., 1024) = 785
+close(6)                                = 0
+stat("/dev/tty7", {st_mode=S_IFCHR|0620, st_rdev=makedev(4, 7), ...}) = 0
+stat("/proc/1137", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1137/stat", O_RDONLY)       = 6
+read(6, "1137 (wicd-monitor) S 1126 1125 "..., 1024) = 190
+close(6)                                = 0
+open("/proc/1137/status", O_RDONLY)     = 6
+read(6, "Name:\twicd-monitor\nState:\tS (sle"..., 1024) = 797
+close(6)                                = 0
+stat("/proc/1165", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1165/stat", O_RDONLY)       = 6
+read(6, "1165 (lightdm) S 1101 1101 1101 "..., 1024) = 176
+close(6)                                = 0
+open("/proc/1165/status", O_RDONLY)     = 6
+read(6, "Name:\tlightdm\nState:\tS (sleeping"..., 1024) = 787
+close(6)                                = 0
+stat("/proc/1168", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1168/stat", O_RDONLY)       = 6
+read(6, "1168 (systemd) S 1 1168 1168 0 -"..., 1024) = 178
+close(6)                                = 0
+open("/proc/1168/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 801
+close(6)                                = 0
+stat("/proc/1169", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1169/stat", O_RDONLY)       = 6
+read(6, "1169 ((sd-pam)) S 1168 1168 1168"..., 1024) = 172
+close(6)                                = 0
+open("/proc/1169/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 803
+close(6)                                = 0
+stat("/proc/1171", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1171/stat", O_RDONLY)       = 6
+read(6, "1171 (lightdm-gtk-gre) S 1165 11"..., 1024) = 198
+close(6)                                = 0
+open("/proc/1171/status", O_RDONLY)     = 6
+read(6, "Name:\tlightdm-gtk-gre\nState:\tS ("..., 1024) = 820
+close(6)                                = 0
+stat("/proc/1176", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1176/stat", O_RDONLY)       = 6
+read(6, "1176 (dbus-launch) S 1 1171 1171"..., 1024) = 172
+close(6)                                = 0
+open("/proc/1176/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-launch\nState:\tS (slee"..., 1024) = 803
+close(6)                                = 0
+stat("/proc/1177", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1177/stat", O_RDONLY)       = 6
+read(6, "1177 (dbus-daemon) S 1 1177 1177"..., 1024) = 173
+close(6)                                = 0
+open("/proc/1177/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-daemon\nState:\tS (slee"..., 1024) = 804
+close(6)                                = 0
+stat("/proc/1179", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1179/stat", O_RDONLY)       = 6
+read(6, "1179 (at-spi-bus-laun) S 1 1177 "..., 1024) = 179
+close(6)                                = 0
+open("/proc/1179/status", O_RDONLY)     = 6
+read(6, "Name:\tat-spi-bus-laun\nState:\tS ("..., 1024) = 809
+close(6)                                = 0
+stat("/proc/1183", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1183/stat", O_RDONLY)       = 6
+read(6, "1183 (dbus-daemon) S 1179 1177 1"..., 1024) = 174
+close(6)                                = 0
+open("/proc/1183/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-daemon\nState:\tS (slee"..., 1024) = 807
+close(6)                                = 0
+stat("/proc/1186", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1186/stat", O_RDONLY)       = 6
+read(6, "1186 (at-spi2-registr) S 1 1177 "..., 1024) = 175
+close(6)                                = 0
+open("/proc/1186/status", O_RDONLY)     = 6
+read(6, "Name:\tat-spi2-registr\nState:\tS ("..., 1024) = 809
+close(6)                                = 0
+stat("/proc/1189", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1189/stat", O_RDONLY)       = 6
+read(6, "1189 (lightdm) S 1101 1101 1101 "..., 1024) = 169
+close(6)                                = 0
+open("/proc/1189/status", O_RDONLY)     = 6
+read(6, "Name:\tlightdm\nState:\tS (sleeping"..., 1024) = 782
+close(6)                                = 0
+stat("/proc/1210", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1210/stat", O_RDONLY)       = 6
+read(6, "1210 (kworker/0:1H) S 2 0 0 0 -1"..., 1024) = 165
+close(6)                                = 0
+open("/proc/1210/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/0:1H\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/1294", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1294/stat", O_RDONLY)       = 6
+read(6, "1294 (kworker/2:1H) S 2 0 0 0 -1"..., 1024) = 164
+close(6)                                = 0
+open("/proc/1294/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/2:1H\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/1426", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1426/stat", O_RDONLY)       = 6
+read(6, "1426 (kworker/1:1H) S 2 0 0 0 -1"..., 1024) = 165
+close(6)                                = 0
+open("/proc/1426/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/1:1H\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/1793", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1793/stat", O_RDONLY)       = 6
+read(6, "1793 (kworker/u48:2) S 2 0 0 0 -"..., 1024) = 170
+close(6)                                = 0
+open("/proc/1793/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/u48:2\nState:\tS (sl"..., 1024) = 557
+close(6)                                = 0
+stat("/proc/1933", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1933/stat", O_RDONLY)       = 6
+read(6, "1933 (kworker/11:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/1933/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/11:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/1989", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/1989/stat", O_RDONLY)       = 6
+read(6, "1989 (kworker/10:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/1989/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/10:1H\nState:\tS (sl"..., 1024) = 555
+close(6)                                = 0
+stat("/proc/2204", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2204/stat", O_RDONLY)       = 6
+read(6, "2204 (kworker/2:2) S 2 0 0 0 -1 "..., 1024) = 167
+close(6)                                = 0
+open("/proc/2204/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/2:2\nState:\tS (slee"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/2263", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2263/stat", O_RDONLY)       = 6
+read(6, "2263 (kworker/12:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/2263/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/12:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/2265", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2265/stat", O_RDONLY)       = 6
+read(6, "2265 (kworker/13:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/2265/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/13:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/2287", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2287/stat", O_RDONLY)       = 6
+read(6, "2287 (kworker/14:1H) S 2 0 0 0 -"..., 1024) = 166
+close(6)                                = 0
+open("/proc/2287/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/14:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/2302", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2302/stat", O_RDONLY)       = 6
+read(6, "2302 (kworker/15:1) S 2 0 0 0 -1"..., 1024) = 169
+close(6)                                = 0
+open("/proc/2302/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/15:1\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/2359", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2359/stat", O_RDONLY)       = 6
+read(6, "2359 (kworker/17:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/2359/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/17:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/2425", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2425/stat", O_RDONLY)       = 6
+read(6, "2425 (kworker/22:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/2425/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/22:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/2517", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2517/stat", O_RDONLY)       = 6
+read(6, "2517 (kworker/5:1H) S 2 0 0 0 -1"..., 1024) = 166
+close(6)                                = 0
+open("/proc/2517/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/5:1H\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/2522", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2522/stat", O_RDONLY)       = 6
+read(6, "2522 (kworker/7:1H) S 2 0 0 0 -1"..., 1024) = 165
+close(6)                                = 0
+open("/proc/2522/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/7:1H\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/2582", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2582/stat", O_RDONLY)       = 6
+read(6, "2582 (kworker/9:1H) S 2 0 0 0 -1"..., 1024) = 165
+close(6)                                = 0
+open("/proc/2582/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/9:1H\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/2655", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2655/stat", O_RDONLY)       = 6
+read(6, "2655 (kworker/16:1H) S 2 0 0 0 -"..., 1024) = 166
+close(6)                                = 0
+open("/proc/2655/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/16:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/2810", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2810/stat", O_RDONLY)       = 6
+read(6, "2810 (kworker/6:2) S 2 0 0 0 -1 "..., 1024) = 167
+close(6)                                = 0
+open("/proc/2810/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/6:2\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/2920", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/2920/stat", O_RDONLY)       = 6
+read(6, "2920 (kworker/23:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/2920/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/23:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/3143", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/3143/stat", O_RDONLY)       = 6
+read(6, "3143 (upowerd) S 1 3143 3143 0 -"..., 1024) = 172
+close(6)                                = 0
+open("/proc/3143/status", O_RDONLY)     = 6
+read(6, "Name:\tupowerd\nState:\tS (sleeping"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/3306", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/3306/stat", O_RDONLY)       = 6
+read(6, "3306 (kworker/20:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/3306/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/20:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/3546", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/3546/stat", O_RDONLY)       = 6
+read(6, "3546 (kworker/6:1H) S 2 0 0 0 -1"..., 1024) = 165
+close(6)                                = 0
+open("/proc/3546/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/6:1H\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/3863", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/3863/stat", O_RDONLY)       = 6
+read(6, "3863 (kworker/3:1H) S 2 0 0 0 -1"..., 1024) = 165
+close(6)                                = 0
+open("/proc/3863/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/3:1H\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/3953", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/3953/stat", O_RDONLY)       = 6
+read(6, "3953 (kworker/19:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/3953/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/19:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/3996", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/3996/stat", O_RDONLY)       = 6
+read(6, "3996 (kworker/15:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/3996/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/15:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/4825", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/4825/stat", O_RDONLY)       = 6
+read(6, "4825 (kworker/9:2) S 2 0 0 0 -1 "..., 1024) = 166
+close(6)                                = 0
+open("/proc/4825/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/9:2\nState:\tS (slee"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/4944", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/4944/stat", O_RDONLY)       = 6
+read(6, "4944 (kworker/18:1H) S 2 0 0 0 -"..., 1024) = 167
+close(6)                                = 0
+open("/proc/4944/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/18:1H\nState:\tS (sl"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/5229", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5229/stat", O_RDONLY)       = 6
+read(6, "5229 (kworker/u48:1) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/5229/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/u48:1\nState:\tS (sl"..., 1024) = 555
+close(6)                                = 0
+stat("/proc/5251", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5251/stat", O_RDONLY)       = 6
+read(6, "5251 (kworker/10:1) S 2 0 0 0 -1"..., 1024) = 169
+close(6)                                = 0
+open("/proc/5251/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/10:1\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/5260", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5260/stat", O_RDONLY)       = 6
+read(6, "5260 (kworker/17:1) S 2 0 0 0 -1"..., 1024) = 167
+close(6)                                = 0
+open("/proc/5260/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/17:1\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/5462", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5462/stat", O_RDONLY)       = 6
+read(6, "5462 (kworker/0:1) S 2 0 0 0 -1 "..., 1024) = 167
+close(6)                                = 0
+open("/proc/5462/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/0:1\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/5621", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5621/stat", O_RDONLY)       = 6
+read(6, "5621 (kworker/13:3) S 2 0 0 0 -1"..., 1024) = 167
+close(6)                                = 0
+open("/proc/5621/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/13:3\nState:\tS (sle"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/5630", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5630/stat", O_RDONLY)       = 6
+read(6, "5630 (kworker/17:2) S 2 0 0 0 -1"..., 1024) = 168
+close(6)                                = 0
+open("/proc/5630/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/17:2\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/5747", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5747/stat", O_RDONLY)       = 6
+read(6, "5747 (kworker/15:2) S 2 0 0 0 -1"..., 1024) = 169
+close(6)                                = 0
+open("/proc/5747/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/15:2\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/5750", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5750/stat", O_RDONLY)       = 6
+read(6, "5750 (kworker/22:0) S 2 0 0 0 -1"..., 1024) = 167
+close(6)                                = 0
+open("/proc/5750/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/22:0\nState:\tS (sle"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/5786", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/5786/stat", O_RDONLY)       = 6
+read(6, "5786 (kworker/19:0) S 2 0 0 0 -1"..., 1024) = 168
+close(6)                                = 0
+open("/proc/5786/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/19:0\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/6080", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6080/stat", O_RDONLY)       = 6
+read(6, "6080 (kworker/7:0) S 2 0 0 0 -1 "..., 1024) = 167
+close(6)                                = 0
+open("/proc/6080/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/7:0\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/6082", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6082/stat", O_RDONLY)       = 6
+read(6, "6082 (kworker/11:0) S 2 0 0 0 -1"..., 1024) = 168
+close(6)                                = 0
+open("/proc/6082/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/11:0\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/6083", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6083/stat", O_RDONLY)       = 6
+read(6, "6083 (kworker/4:0) S 2 0 0 0 -1 "..., 1024) = 166
+close(6)                                = 0
+open("/proc/6083/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/4:0\nState:\tS (slee"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/6145", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6145/stat", O_RDONLY)       = 6
+read(6, "6145 (sshd) S 29559 6145 6145 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/6145/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6148", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6148/stat", O_RDONLY)       = 6
+read(6, "6148 (systemd) S 1 6148 6148 0 -"..., 1024) = 181
+close(6)                                = 0
+open("/proc/6148/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6149", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6149/stat", O_RDONLY)       = 6
+read(6, "6149 ((sd-pam)) S 6148 6148 6148"..., 1024) = 178
+close(6)                                = 0
+open("/proc/6149/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6151", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6151/stat", O_RDONLY)       = 6
+read(6, "6151 (sshd) S 6145 6145 6145 0 -"..., 1024) = 178
+close(6)                                = 0
+open("/proc/6151/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 829
+close(6)                                = 0
+stat("/proc/6152", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6152/stat", O_RDONLY)       = 6
+read(6, "6152 (pcmanfm) S 6151 6152 6152 "..., 1024) = 187
+close(6)                                = 0
+open("/proc/6152/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/6164", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6164/stat", O_RDONLY)       = 6
+read(6, "6164 (sshd) S 29559 6164 6164 0 "..., 1024) = 183
+close(6)                                = 0
+open("/proc/6164/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6166", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6166/stat", O_RDONLY)       = 6
+read(6, "6166 (systemd) S 1 6166 6166 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6166/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6167", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6167/stat", O_RDONLY)       = 6
+read(6, "6167 ((sd-pam)) S 6166 6166 6166"..., 1024) = 178
+close(6)                                = 0
+open("/proc/6167/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6169", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6169/stat", O_RDONLY)       = 6
+read(6, "6169 (sshd) S 6164 6164 6164 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6169/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/6170", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6170/stat", O_RDONLY)       = 6
+read(6, "6170 (pcmanfm) S 6169 6170 6170 "..., 1024) = 187
+close(6)                                = 0
+open("/proc/6170/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 833
+close(6)                                = 0
+stat("/proc/6202", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6202/stat", O_RDONLY)       = 6
+read(6, "6202 (systemd) S 1 6202 6202 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6202/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6203", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6203/stat", O_RDONLY)       = 6
+read(6, "6203 ((sd-pam)) S 6202 6202 6202"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6203/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6224", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6224/stat", O_RDONLY)       = 6
+read(6, "6224 (sshd) S 29559 6224 6224 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/6224/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6233", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6233/stat", O_RDONLY)       = 6
+read(6, "6233 (systemd) S 1 6233 6233 0 -"..., 1024) = 181
+close(6)                                = 0
+open("/proc/6233/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+write(1, "0 ?        00:00:00 fsnotify_mar"..., 4096) = 4096
+stat("/proc/6234", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6234/stat", O_RDONLY)       = 6
+read(6, "6234 ((sd-pam)) S 6233 6233 6233"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6234/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6236", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6236/stat", O_RDONLY)       = 6
+read(6, "6236 (sshd) S 6224 6224 6224 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6236/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/6237", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6237/stat", O_RDONLY)       = 6
+read(6, "6237 (pcmanfm) S 6236 6237 6237 "..., 1024) = 187
+close(6)                                = 0
+open("/proc/6237/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/6250", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6250/stat", O_RDONLY)       = 6
+read(6, "6250 (sshd) S 29559 6250 6250 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/6250/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6252", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6252/stat", O_RDONLY)       = 6
+read(6, "6252 (systemd) S 1 6252 6252 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6252/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6253", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6253/stat", O_RDONLY)       = 6
+read(6, "6253 ((sd-pam)) S 6252 6252 6252"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6253/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6255", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6255/stat", O_RDONLY)       = 6
+read(6, "6255 (sshd) S 6250 6250 6250 0 -"..., 1024) = 181
+close(6)                                = 0
+open("/proc/6255/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/6256", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6256/stat", O_RDONLY)       = 6
+read(6, "6256 (pcmanfm) S 6255 6256 6256 "..., 1024) = 186
+close(6)                                = 0
+open("/proc/6256/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/6279", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6279/stat", O_RDONLY)       = 6
+read(6, "6279 (systemd) S 1 6279 6279 0 -"..., 1024) = 181
+close(6)                                = 0
+open("/proc/6279/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6280", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6280/stat", O_RDONLY)       = 6
+read(6, "6280 ((sd-pam)) S 6279 6279 6279"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6280/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6335", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6335/stat", O_RDONLY)       = 6
+read(6, "6335 (kworker/8:2) S 2 0 0 0 -1 "..., 1024) = 167
+close(6)                                = 0
+open("/proc/6335/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/8:2\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/6348", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6348/stat", O_RDONLY)       = 6
+read(6, "6348 (sshd) S 29559 6348 6348 0 "..., 1024) = 183
+close(6)                                = 0
+open("/proc/6348/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6350", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6350/stat", O_RDONLY)       = 6
+read(6, "6350 (systemd) S 1 6350 6350 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6350/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6351", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6351/stat", O_RDONLY)       = 6
+read(6, "6351 ((sd-pam)) S 6350 6350 6350"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6351/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6353", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6353/stat", O_RDONLY)       = 6
+read(6, "6353 (sshd) S 6348 6348 6348 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6353/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/6354", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6354/stat", O_RDONLY)       = 6
+read(6, "6354 (pcmanfm) S 6353 6354 6354 "..., 1024) = 187
+close(6)                                = 0
+open("/proc/6354/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 832
+close(6)                                = 0
+stat("/proc/6375", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6375/stat", O_RDONLY)       = 6
+read(6, "6375 (sshd) S 29559 6375 6375 0 "..., 1024) = 183
+close(6)                                = 0
+open("/proc/6375/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6381", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6381/stat", O_RDONLY)       = 6
+read(6, "6381 (systemd) S 1 6381 6381 0 -"..., 1024) = 344
+close(6)                                = 0
+open("/proc/6381/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6382", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6382/stat", O_RDONLY)       = 6
+read(6, "6382 ((sd-pam)) S 6381 6381 6381"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6382/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6385", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6385/stat", O_RDONLY)       = 6
+read(6, "6385 (sshd) S 6375 6375 6375 0 -"..., 1024) = 178
+close(6)                                = 0
+open("/proc/6385/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6386", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6386/stat", O_RDONLY)       = 6
+read(6, "6386 (bash) S 6385 6386 6386 348"..., 1024) = 337
+close(6)                                = 0
+open("/proc/6386/status", O_RDONLY)     = 6
+read(6, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1024) = 828
+close(6)                                = 0
+stat("/dev/pts1", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/6386/fd/2", "/dev/pts/1", 127) = 10
+stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+stat("/proc/6406", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6406/stat", O_RDONLY)       = 6
+read(6, "6406 (dbus-launch) S 1 6256 6256"..., 1024) = 175
+close(6)                                = 0
+open("/proc/6406/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-launch\nState:\tS (slee"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6407", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6407/stat", O_RDONLY)       = 6
+read(6, "6407 (dbus-daemon) S 1 6407 6407"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6407/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-daemon\nState:\tS (slee"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6425", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6425/stat", O_RDONLY)       = 6
+read(6, "6425 (sshd) S 29559 6425 6425 0 "..., 1024) = 183
+close(6)                                = 0
+open("/proc/6425/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 782
+close(6)                                = 0
+stat("/proc/6431", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6431/stat", O_RDONLY)       = 6
+read(6, "6431 (systemd) S 1 6431 6431 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6431/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6432", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6432/stat", O_RDONLY)       = 6
+read(6, "6432 ((sd-pam)) S 6431 6431 6431"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6432/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6434", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6434/stat", O_RDONLY)       = 6
+read(6, "6434 (sshd) S 6425 6425 6425 0 -"..., 1024) = 181
+close(6)                                = 0
+open("/proc/6434/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/6436", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6436/stat", O_RDONLY)       = 6
+read(6, "6436 (pcmanfm) S 6434 6436 6436 "..., 1024) = 185
+close(6)                                = 0
+open("/proc/6436/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/6454", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6454/stat", O_RDONLY)       = 6
+read(6, "6454 (sshd) S 29559 6454 6454 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/6454/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6456", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6456/stat", O_RDONLY)       = 6
+read(6, "6456 (systemd) S 1 6456 6456 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6456/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6457", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6457/stat", O_RDONLY)       = 6
+read(6, "6457 ((sd-pam)) S 6456 6456 6456"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6457/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6459", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6459/stat", O_RDONLY)       = 6
+read(6, "6459 (sshd) S 6454 6454 6454 0 -"..., 1024) = 184
+close(6)                                = 0
+open("/proc/6459/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/6477", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6477/stat", O_RDONLY)       = 6
+read(6, "6477 (leafpad) S 1 6152 6152 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6477/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6478", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6478/stat", O_RDONLY)       = 6
+read(6, "6478 (sshd) S 29559 6478 6478 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/6478/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6482", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6482/stat", O_RDONLY)       = 6
+read(6, "6482 (leafpad) S 1 6170 6170 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6482/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/6483", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6483/stat", O_RDONLY)       = 6
+read(6, "6483 (systemd) S 1 6483 6483 0 -"..., 1024) = 181
+close(6)                                = 0
+open("/proc/6483/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6484", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6484/stat", O_RDONLY)       = 6
+read(6, "6484 ((sd-pam)) S 6483 6483 6483"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6484/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6486", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6486/stat", O_RDONLY)       = 6
+read(6, "6486 (sshd) S 6478 6478 6478 0 -"..., 1024) = 178
+close(6)                                = 0
+open("/proc/6486/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6487", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6487/stat", O_RDONLY)       = 6
+read(6, "6487 (bash) S 6486 6487 6487 348"..., 1024) = 200
+close(6)                                = 0
+open("/proc/6487/status", O_RDONLY)     = 6
+read(6, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1024) = 827
+close(6)                                = 0
+stat("/dev/pts3", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/6487/fd/2", 0x7fc5b12ca440, 127) = -1 EACCES (Permission denied)
+stat("/dev/pts/3", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+stat("/proc/6513", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6513/stat", O_RDONLY)       = 6
+read(6, "6513 (leafpad) S 1 6460 6460 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6513/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6518", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6518/stat", O_RDONLY)       = 6
+read(6, "6518 (leafpad) S 1 6237 6237 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6518/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6530", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6530/stat", O_RDONLY)       = 6
+read(6, "6530 (ssh) S 1 6436 6436 0 -1 42"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6530/status", O_RDONLY)     = 6
+read(6, "Name:\tssh\nState:\tS (sleeping)\nTg"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6531", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6531/stat", O_RDONLY)       = 6
+read(6, "6531 (sshd) S 29559 6531 6531 0 "..., 1024) = 183
+close(6)                                = 0
+open("/proc/6531/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 782
+close(6)                                = 0
+stat("/proc/6533", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6533/stat", O_RDONLY)       = 6
+read(6, "6533 (sshd) S 6531 6531 6531 0 -"..., 1024) = 178
+close(6)                                = 0
+open("/proc/6533/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 829
+close(6)                                = 0
+stat("/proc/6536", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6536/stat", O_RDONLY)       = 6
+read(6, "6536 (pcmanfm) S 6533 6536 6536 "..., 1024) = 186
+close(6)                                = 0
+open("/proc/6536/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/6560", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6560/stat", O_RDONLY)       = 6
+read(6, "6560 (leafpad) S 1 6354 6354 0 -"..., 1024) = 176
+close(6)                                = 0
+open("/proc/6560/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6751", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6751/stat", O_RDONLY)       = 6
+read(6, "6751 (sshd) S 29559 6751 6751 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/6751/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6754", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6754/stat", O_RDONLY)       = 6
+read(6, "6754 (systemd) S 1 6754 6754 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6754/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6755", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6755/stat", O_RDONLY)       = 6
+read(6, "6755 ((sd-pam)) S 6754 6754 6754"..., 1024) = 178
+close(6)                                = 0
+open("/proc/6755/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6757", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6757/stat", O_RDONLY)       = 6
+read(6, "6757 (sshd) S 6751 6751 6751 0 -"..., 1024) = 182
+close(6)                                = 0
+open("/proc/6757/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/6758", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6758/stat", O_RDONLY)       = 6
+read(6, "6758 (pcmanfm) S 6757 6758 6758 "..., 1024) = 188
+close(6)                                = 0
+open("/proc/6758/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/6789", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6789/stat", O_RDONLY)       = 6
+read(6, "6789 (sshd) S 29559 6789 6789 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/6789/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6791", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6791/stat", O_RDONLY)       = 6
+read(6, "6791 (systemd) S 1 6791 6791 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6791/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 824
+close(6)                                = 0
+stat("/proc/6792", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6792/stat", O_RDONLY)       = 6
+read(6, "6792 ((sd-pam)) S 6791 6791 6791"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6792/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6794", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6794/stat", O_RDONLY)       = 6
+read(6, "6794 (sshd) S 6789 6789 6789 0 -"..., 1024) = 178
+close(6)                                = 0
+open("/proc/6794/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6795", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6795/stat", O_RDONLY)       = 6
+read(6, "6795 (pcmanfm) S 6794 6795 6795 "..., 1024) = 185
+close(6)                                = 0
+open("/proc/6795/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/6847", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6847/stat", O_RDONLY)       = 6
+read(6, "6847 (leafpad) S 1 6758 6758 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6847/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6853", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6853/stat", O_RDONLY)       = 6
+read(6, "6853 (sshd) S 29559 6853 6853 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/6853/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6866", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6866/stat", O_RDONLY)       = 6
+read(6, "6866 (systemd) S 1 6866 6866 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/6866/status", O_RDONLY)     = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 825
+close(6)                                = 0
+stat("/proc/6867", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6867/stat", O_RDONLY)       = 6
+read(6, "6867 ((sd-pam)) S 6866 6866 6866"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6867/status", O_RDONLY)     = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6869", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6869/stat", O_RDONLY)       = 6
+read(6, "6869 (sshd) S 6853 6853 6853 0 -"..., 1024) = 191
+close(6)                                = 0
+open("/proc/6869/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/6905", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6905/stat", O_RDONLY)       = 6
+read(6, "6905 (leafpad) S 1 6795 6795 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6905/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6912", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6912/stat", O_RDONLY)       = 6
+read(6, "6912 (leafpad) S 1 6536 6536 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/6912/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6946", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6946/stat", O_RDONLY)       = 6
+read(6, "6946 (dbus-launch) S 1 6870 6870"..., 1024) = 175
+close(6)                                = 0
+open("/proc/6946/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-launch\nState:\tS (slee"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/6947", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6947/stat", O_RDONLY)       = 6
+read(6, "6947 (dbus-daemon) S 1 6947 6947"..., 1024) = 176
+close(6)                                = 0
+open("/proc/6947/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-daemon\nState:\tS (slee"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/6971", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6971/stat", O_RDONLY)       = 6
+read(6, "6971 (sshd) S 29559 6971 6971 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/6971/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/6973", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6973/stat", O_RDONLY)       = 6
+read(6, "6973 (sshd) S 6971 6971 6971 0 -"..., 1024) = 178
+close(6)                                = 0
+open("/proc/6973/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/6974", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/6974/stat", O_RDONLY)       = 6
+read(6, "6974 (bash) S 6973 6974 6974 348"..., 1024) = 203
+close(6)                                = 0
+open("/proc/6974/status", O_RDONLY)     = 6
+read(6, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1024) = 828
+close(6)                                = 0
+stat("/dev/pts4", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/6974/fd/2", 0x7fc5b12ca440, 127) = -1 EACCES (Permission denied)
+stat("/dev/pts/4", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 4), ...}) = 0
+stat("/proc/7075", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7075/stat", O_RDONLY)       = 6
+read(6, "7075 (bluefish) S 1 6758 6758 0 "..., 1024) = 188
+close(6)                                = 0
+open("/proc/7075/status", O_RDONLY)     = 6
+read(6, "Name:\tbluefish\nState:\tS (sleepin"..., 1024) = 832
+close(6)                                = 0
+stat("/proc/7099", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7099/stat", O_RDONLY)       = 6
+read(6, "7099 (sshd) S 29559 7099 7099 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/7099/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/7101", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7101/stat", O_RDONLY)       = 6
+read(6, "7101 (sshd) S 7099 7099 7099 0 -"..., 1024) = 176
+close(6)                                = 0
+open("/proc/7101/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 826
+close(6)                                = 0
+stat("/proc/7102", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7102/stat", O_RDONLY)       = 6
+read(6, "7102 (bash) S 7101 7102 7102 348"..., 1024) = 195
+close(6)                                = 0
+open("/proc/7102/status", O_RDONLY)     = 6
+read(6, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1024) = 826
+close(6)                                = 0
+stat("/dev/pts6", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/7102/fd/2", 0x7fc5b12ca440, 127) = -1 EACCES (Permission denied)
+stat("/dev/pts/6", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 6), ...}) = 0
+stat("/proc/7144", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7144/stat", O_RDONLY)       = 6
+read(6, "7144 (sshd) S 29559 7144 7144 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/7144/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/7146", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7146/stat", O_RDONLY)       = 6
+read(6, "7146 (sshd) S 7144 7144 7144 0 -"..., 1024) = 178
+close(6)                                = 0
+open("/proc/7146/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/7147", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7147/stat", O_RDONLY)       = 6
+read(6, "7147 (pcmanfm) S 7146 7147 7147 "..., 1024) = 347
+close(6)                                = 0
+open("/proc/7147/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/7181", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7181/stat", O_RDONLY)       = 6
+read(6, "7181 (sshd) S 29559 7181 7181 0 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/7181/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/7183", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7183/stat", O_RDONLY)       = 6
+read(6, "7183 (sshd) S 7181 7181 7181 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/7183/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 829
+close(6)                                = 0
+stat("/proc/7184", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7184/stat", O_RDONLY)       = 6
+read(6, "7184 (pcmanfm) S 7183 7184 7184 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/7184/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/7242", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7242/stat", O_RDONLY)       = 6
+read(6, "7242 (leafpad) S 1 6256 6256 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/7242/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/7244", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7244/stat", O_RDONLY)       = 6
+read(6, "7244 (sshd) S 29559 7244 7244 0 "..., 1024) = 183
+close(6)                                = 0
+open("/proc/7244/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/7246", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7246/stat", O_RDONLY)       = 6
+read(6, "7246 (sshd) S 7244 7244 7244 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/7246/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/7247", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7247/stat", O_RDONLY)       = 6
+read(6, "7247 (pcmanfm) S 7246 7247 7247 "..., 1024) = 188
+close(6)                                = 0
+open("/proc/7247/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 832
+close(6)                                = 0
+stat("/proc/7271", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7271/stat", O_RDONLY)       = 6
+read(6, "7271 (bluefish) S 1 7184 7184 0 "..., 1024) = 183
+close(6)                                = 0
+open("/proc/7271/status", O_RDONLY)     = 6
+read(6, "Name:\tbluefish\nState:\tS (sleepin"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/7288", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7288/stat", O_RDONLY)       = 6
+read(6, "7288 (leafpad) S 1 7247 7247 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/7288/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 829
+close(6)                                = 0
+stat("/proc/7407", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7407/stat", O_RDONLY)       = 6
+read(6, "7407 (dbus-launch) S 1 6436 6436"..., 1024) = 175
+close(6)                                = 0
+open("/proc/7407/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-launch\nState:\tS (slee"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/7408", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7408/stat", O_RDONLY)       = 6
+read(6, "7408 (dbus-daemon) S 1 7408 7408"..., 1024) = 176
+close(6)                                = 0
+open("/proc/7408/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-daemon\nState:\tS (slee"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/7494", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7494/stat", O_RDONLY)       = 6
+read(6, "7494 (kworker/23:2) S 2 0 0 0 -1"..., 1024) = 168
+close(6)                                = 0
+open("/proc/7494/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/23:2\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/7599", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7599/stat", O_RDONLY)       = 6
+read(6, "7599 (sshd) S 29559 7599 7599 0 "..., 1024) = 183
+close(6)                                = 0
+open("/proc/7599/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 782
+close(6)                                = 0
+stat("/proc/7602", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7602/stat", O_RDONLY)       = 6
+read(6, "7602 (sshd) S 7599 7599 7599 0 -"..., 1024) = 180
+close(6)                                = 0
+open("/proc/7602/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 829
+close(6)                                = 0
+stat("/proc/7603", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7603/stat", O_RDONLY)       = 6
+read(6, "7603 (pcmanfm) S 7602 7603 7603 "..., 1024) = 186
+close(6)                                = 0
+open("/proc/7603/status", O_RDONLY)     = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/7686", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7686/stat", O_RDONLY)       = 6
+read(6, "7686 (leafpad) S 1 6870 6870 0 -"..., 1024) = 177
+close(6)                                = 0
+open("/proc/7686/status", O_RDONLY)     = 6
+read(6, "Name:\tleafpad\nState:\tS (sleeping"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/7780", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7780/stat", O_RDONLY)       = 6
+read(6, "7780 (kworker/14:1) S 2 0 0 0 -1"..., 1024) = 168
+close(6)                                = 0
+open("/proc/7780/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/14:1\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/7782", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7782/stat", O_RDONLY)       = 6
+read(6, "7782 (kworker/9:0) S 2 0 0 0 -1 "..., 1024) = 166
+close(6)                                = 0
+open("/proc/7782/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/9:0\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/7783", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/7783/stat", O_RDONLY)       = 6
+read(6, "7783 (kworker/3:0) S 2 0 0 0 -1 "..., 1024) = 165
+close(6)                                = 0
+open("/proc/7783/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/3:0\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/8149", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/8149/stat", O_RDONLY)       = 6
+read(6, "8149 (sshd) S 29559 8149 8149 0 "..., 1024) = 183
+close(6)                                = 0
+open("/proc/8149/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 781
+close(6)                                = 0
+stat("/proc/8151", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/8151/stat", O_RDONLY)       = 6
+read(6, "8151 (sshd) S 8149 8149 8149 0 -"..., 1024) = 183
+close(6)                                = 0
+open("/proc/8151/status", O_RDONLY)     = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/8181", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/8181/stat", O_RDONLY)       = 6
+read(6, "8181 (dbus-launch) S 1 8152 8152"..., 1024) = 175
+close(6)                                = 0
+open("/proc/8181/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-launch\nState:\tS (slee"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/8182", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/8182/stat", O_RDONLY)       = 6
+read(6, "8182 (dbus-daemon) S 1 8182 8182"..., 1024) = 175
+close(6)                                = 0
+open("/proc/8182/status", O_RDONLY)     = 6
+read(6, "Name:\tdbus-daemon\nState:\tS (slee"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/8316", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/8316/stat", O_RDONLY)       = 6
+read(6, "8316 (kworker/3:2) S 2 0 0 0 -1 "..., 1024) = 166
+close(6)                                = 0
+open("/proc/8316/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/3:2\nState:\tS (slee"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/8500", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/8500/stat", O_RDONLY)       = 6
+read(6, "8500 (kworker/7:2) S 2 0 0 0 -1 "..., 1024) = 165
+close(6)                                = 0
+open("/proc/8500/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/7:2\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/8528", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/8528/stat", O_RDONLY)       = 6
+read(6, "8528 (bluefish) S 1 7247 7247 0 "..., 1024) = 185
+close(6)                                = 0
+open("/proc/8528/status", O_RDONLY)     = 6
+read(6, "Name:\tbluefish\nState:\tS (sleepin"..., 1024) = 832
+close(6)                                = 0
+stat("/proc/9874", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/9874/stat", O_RDONLY)       = 6
+read(6, "9874 (kworker/8:1) S 2 0 0 0 -1 "..., 1024) = 165
+close(6)                                = 0
+open("/proc/9874/status", O_RDONLY)     = 6
+read(6, "Name:\tkworker/8:1\nState:\tS (slee"..., 1024) = 548
+close(6)                                = 0
+stat("/proc/10772", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/10772/stat", O_RDONLY)      = 6
+read(6, "10772 (sshd) S 29559 10772 10772"..., 1024) = 187
+close(6)                                = 0
+open("/proc/10772/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/10793", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/10793/stat", O_RDONLY)      = 6
+read(6, "10793 (sshd) S 10772 10772 10772"..., 1024) = 182
+close(6)                                = 0
+open("/proc/10793/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/10794", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/10794/stat", O_RDONLY)      = 6
+read(6, "10794 (bash) S 10793 10794 10794"..., 1024) = 202
+close(6)                                = 0
+open("/proc/10794/status", O_RDONLY)    = 6
+read(6, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/dev/pts0", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/10794/fd/2", 0x7fc5b12ca440, 127) = -1 EACCES (Permission denied)
+stat("/dev/pts/0", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...}) = 0
+stat("/proc/11381", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/11381/stat", O_RDONLY)      = 6
+read(6, "11381 (lab1_2) T 6386 11381 6386"..., 1024) = 309
+close(6)                                = 0
+open("/proc/11381/status", O_RDONLY)    = 6
+read(6, "Name:\tlab1_2\nState:\tT (stopped)\n"..., 1024) = 827
+close(6)                                = 0
+stat("/dev/pts1", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/11381/fd/2", "/dev/pts/1", 127) = 10
+stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+stat("/proc/12124", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/12124/stat", O_RDONLY)      = 6
+read(6, "12124 (kworker/5:2) S 2 0 0 0 -1"..., 1024) = 167
+close(6)                                = 0
+open("/proc/12124/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/5:2\nState:\tS (slee"..., 1024) = 555
+close(6)                                = 0
+stat("/proc/12201", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/12201/stat", O_RDONLY)      = 6
+read(6, "12201 (kworker/1:0) S 2 0 0 0 -1"..., 1024) = 167
+close(6)                                = 0
+open("/proc/12201/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/1:0\nState:\tS (slee"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/12294", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/12294/stat", O_RDONLY)      = 6
+read(6, "12294 (kworker/20:2) S 2 0 0 0 -"..., 1024) = 169
+close(6)                                = 0
+open("/proc/12294/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/20:2\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/12295", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/12295/stat", O_RDONLY)      = 6
+read(6, "12295 (kworker/12:0) S 2 0 0 0 -"..., 1024) = 169
+close(6)                                = 0
+open("/proc/12295/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/12:0\nState:\tS (sle"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/13025", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13025/stat", O_RDONLY)      = 6
+read(6, "13025 (kworker/5:1) S 2 0 0 0 -1"..., 1024) = 167
+close(6)                                = 0
+open("/proc/13025/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/5:1\nState:\tS (slee"..., 1024) = 554
+close(6)                                = 0
+stat("/proc/13031", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13031/stat", O_RDONLY)      = 6
+read(6, "13031 (kworker/1:2) S 2 0 0 0 -1"..., 1024) = 166
+close(6)                                = 0
+open("/proc/13031/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/1:2\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/13033", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13033/stat", O_RDONLY)      = 6
+read(6, "13033 (kworker/11:2) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/13033/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/11:2\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/13034", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13034/stat", O_RDONLY)      = 6
+read(6, "13034 (kworker/2:0) S 2 0 0 0 -1"..., 1024) = 166
+close(6)                                = 0
+open("/proc/13034/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/2:0\nState:\tS (slee"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/13057", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13057/stat", O_RDONLY)      = 6
+read(6, "13057 (sshd) S 29559 13057 13057"..., 1024) = 186
+close(6)                                = 0
+open("/proc/13057/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 784
+close(6)                                = 0
+stat("/proc/13061", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13061/stat", O_RDONLY)      = 6
+read(6, "13061 (sshd) S 13057 13057 13057"..., 1024) = 180
+close(6)                                = 0
+open("/proc/13061/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 827
+close(6)                                = 0
+stat("/proc/13062", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13062/stat", O_RDONLY)      = 6
+read(6, "13062 (bash) S 13061 13062 13062"..., 1024) = 199
+close(6)                                = 0
+open("/proc/13062/status", O_RDONLY)    = 6
+read(6, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1024) = 829
+close(6)                                = 0
+stat("/dev/pts7", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/13062/fd/2", 0x7fc5b12ca440, 127) = -1 EACCES (Permission denied)
+stat("/dev/pts/7", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 7), ...}) = 0
+stat("/proc/13211", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13211/stat", O_RDONLY)      = 6
+read(6, "13211 (kworker/0:2) S 2 0 0 0 -1"..., 1024) = 167
+close(6)                                = 0
+open("/proc/13211/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/0:2\nState:\tS (slee"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/13213", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13213/stat", O_RDONLY)      = 6
+read(6, "13213 (kworker/10:0) S 2 0 0 0 -"..., 1024) = 169
+close(6)                                = 0
+open("/proc/13213/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/10:0\nState:\tS (sle"..., 1024) = 555
+close(6)                                = 0
+stat("/proc/13214", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13214/stat", O_RDONLY)      = 6
+read(6, "13214 (kworker/21:0) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/13214/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/21:0\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/13215", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13215/stat", O_RDONLY)      = 6
+read(6, "13215 (kworker/20:0) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/13215/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/20:0\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/13471", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13471/stat", O_RDONLY)      = 6
+read(6, "13471 (kworker/14:0) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/13471/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/14:0\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/13473", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13473/stat", O_RDONLY)      = 6
+read(6, "13473 (kworker/23:0) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/13473/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/23:0\nState:\tS (sle"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/13474", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13474/stat", O_RDONLY)      = 6
+read(6, "13474 (kworker/6:0) S 2 0 0 0 -1"..., 1024) = 166
+close(6)                                = 0
+open("/proc/13474/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/6:0\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/13491", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13491/stat", O_RDONLY)      = 6
+read(6, "13491 (sshd) S 29559 13491 13491"..., 1024) = 186
+close(6)                                = 0
+open("/proc/13491/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/13525", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13525/stat", O_RDONLY)      = 6
+read(6, "13525 (systemd) S 1 13525 13525 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/13525/status", O_RDONLY)    = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 826
+close(6)                                = 0
+stat("/proc/13526", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13526/stat", O_RDONLY)      = 6
+read(6, "13526 ((sd-pam)) S 13525 13525 1"..., 1024) = 182
+close(6)                                = 0
+open("/proc/13526/status", O_RDONLY)    = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/13528", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13528/stat", O_RDONLY)      = 6
+read(6, "13528 (sshd) S 13491 13491 13491"..., 1024) = 180
+close(6)                                = 0
+open("/proc/13528/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 826
+close(6)                                = 0
+write(1, "00:00 systemd\n 6234 ?        00:"..., 4096) = 4096
+stat("/proc/13529", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13529/stat", O_RDONLY)      = 6
+read(6, "13529 (bash) S 13528 13529 13529"..., 1024) = 200
+close(6)                                = 0
+open("/proc/13529/status", O_RDONLY)    = 6
+read(6, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1024) = 829
+close(6)                                = 0
+stat("/dev/pts8", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/13529/fd/2", 0x7fc5b12ca440, 127) = -1 EACCES (Permission denied)
+stat("/dev/pts/8", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 8), ...}) = 0
+stat("/proc/13694", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13694/stat", O_RDONLY)      = 6
+read(6, "13694 (sshd) S 29559 13694 13694"..., 1024) = 186
+close(6)                                = 0
+open("/proc/13694/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/13725", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13725/stat", O_RDONLY)      = 6
+read(6, "13725 (sshd) S 29559 13725 13725"..., 1024) = 187
+close(6)                                = 0
+open("/proc/13725/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/13727", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13727/stat", O_RDONLY)      = 6
+read(6, "13727 (sshd) S 13725 13725 13725"..., 1024) = 188
+close(6)                                = 0
+open("/proc/13727/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/13753", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13753/stat", O_RDONLY)      = 6
+read(6, "13753 (systemd) S 1 13753 13753 "..., 1024) = 184
+close(6)                                = 0
+open("/proc/13753/status", O_RDONLY)    = 6
+read(6, "Name:\tsystemd\nState:\tS (sleeping"..., 1024) = 825
+close(6)                                = 0
+stat("/proc/13754", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13754/stat", O_RDONLY)      = 6
+read(6, "13754 ((sd-pam)) S 13753 13753 1"..., 1024) = 182
+close(6)                                = 0
+open("/proc/13754/status", O_RDONLY)    = 6
+read(6, "Name:\t(sd-pam)\nState:\tS (sleepin"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/13756", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13756/stat", O_RDONLY)      = 6
+read(6, "13756 (sshd) S 13694 13694 13694"..., 1024) = 180
+close(6)                                = 0
+open("/proc/13756/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 828
+close(6)                                = 0
+stat("/proc/13757", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13757/stat", O_RDONLY)      = 6
+read(6, "13757 (bash) S 13756 13757 13757"..., 1024) = 201
+close(6)                                = 0
+open("/proc/13757/status", O_RDONLY)    = 6
+read(6, "Name:\tbash\nState:\tS (sleeping)\nT"..., 1024) = 829
+close(6)                                = 0
+stat("/dev/pts9", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/13757/fd/2", 0x7fc5b12ca440, 127) = -1 EACCES (Permission denied)
+stat("/dev/pts/9", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 9), ...}) = 0
+stat("/proc/13827", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13827/stat", O_RDONLY)      = 6
+read(6, "13827 (sshd) S 29559 13827 13827"..., 1024) = 186
+close(6)                                = 0
+open("/proc/13827/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/13829", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13829/stat", O_RDONLY)      = 6
+read(6, "13829 (sshd) S 13827 13827 13827"..., 1024) = 181
+close(6)                                = 0
+open("/proc/13829/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 830
+close(6)                                = 0
+stat("/proc/13830", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13830/stat", O_RDONLY)      = 6
+read(6, "13830 (pcmanfm) S 13829 13830 13"..., 1024) = 188
+close(6)                                = 0
+open("/proc/13830/status", O_RDONLY)    = 6
+read(6, "Name:\tpcmanfm\nState:\tS (sleeping"..., 1024) = 832
+close(6)                                = 0
+stat("/proc/13869", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13869/stat", O_RDONLY)      = 6
+read(6, "13869 (dbus-launch) S 1 13728 13"..., 1024) = 179
+close(6)                                = 0
+open("/proc/13869/status", O_RDONLY)    = 6
+read(6, "Name:\tdbus-launch\nState:\tS (slee"..., 1024) = 829
+close(6)                                = 0
+stat("/proc/13870", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13870/stat", O_RDONLY)      = 6
+read(6, "13870 (dbus-daemon) S 1 13870 13"..., 1024) = 179
+close(6)                                = 0
+open("/proc/13870/status", O_RDONLY)    = 6
+read(6, "Name:\tdbus-daemon\nState:\tS (slee"..., 1024) = 831
+close(6)                                = 0
+stat("/proc/13912", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13912/stat", O_RDONLY)      = 6
+read(6, "13912 (kworker/10:2) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/13912/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/10:2\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/13913", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13913/stat", O_RDONLY)      = 6
+read(6, "13913 (kworker/10:3) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/13913/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/10:3\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/13915", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13915/stat", O_RDONLY)      = 6
+read(6, "13915 (kworker/5:0) S 2 0 0 0 -1"..., 1024) = 166
+close(6)                                = 0
+open("/proc/13915/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/5:0\nState:\tS (slee"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/13918", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13918/stat", O_RDONLY)      = 6
+read(6, "13918 (kworker/5:3) S 2 0 0 0 -1"..., 1024) = 166
+close(6)                                = 0
+open("/proc/13918/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/5:3\nState:\tS (slee"..., 1024) = 550
+close(6)                                = 0
+stat("/proc/13966", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13966/stat", O_RDONLY)      = 6
+read(6, "13966 (strace) R 6386 13966 6386"..., 1024) = 357
+close(6)                                = 0
+open("/proc/13966/status", O_RDONLY)    = 6
+read(6, "Name:\tstrace\nState:\tR (running)\n"..., 1024) = 833
+close(6)                                = 0
+stat("/dev/pts1", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/13966/fd/2", "/student/m18502/m1850209/linux_s"..., 127) = 48
+stat("/student/m18502/m1850209/linux_sem1/linuxlabs/81", {st_mode=S_IFREG|0644, st_size=148070, ...}) = 0
+stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+stat("/proc/13967", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13967/stat", O_RDONLY)      = 6
+read(6, "13967 (grep) S 6386 13966 6386 3"..., 1024) = 340
+close(6)                                = 0
+open("/proc/13967/status", O_RDONLY)    = 6
+read(6, "Name:\tgrep\nState:\tS (sleeping)\nT"..., 1024) = 826
+close(6)                                = 0
+stat("/dev/pts1", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/13967/fd/2", "/dev/pts/1", 127) = 10
+stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+stat("/proc/13970", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/13970/stat", O_RDONLY)      = 6
+read(6, "13970 (ps) R 13966 13966 6386 34"..., 1024) = 314
+close(6)                                = 0
+open("/proc/13970/status", O_RDONLY)    = 6
+read(6, "Name:\tps\nState:\tR (running)\nTgid"..., 1024) = 830
+close(6)                                = 0
+stat("/dev/pts1", 0x7ffe4c7a53c0)       = -1 ENOENT (No such file or directory)
+stat("/dev/pts", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+readlink("/proc/13970/fd/2", "/student/m18502/m1850209/linux_s"..., 127) = 48
+stat("/student/m18502/m1850209/linux_sem1/linuxlabs/81", {st_mode=S_IFREG|0644, st_size=149467, ...}) = 0
+stat("/dev/pts/1", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 1), ...}) = 0
+stat("/proc/17421", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/17421/stat", O_RDONLY)      = 6
+read(6, "17421 (kworker/22:2) S 2 0 0 0 -"..., 1024) = 170
+close(6)                                = 0
+open("/proc/17421/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/22:2\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/18370", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/18370/stat", O_RDONLY)      = 6
+read(6, "18370 (kworker/16:1) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/18370/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/16:1\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/18622", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/18622/stat", O_RDONLY)      = 6
+read(6, "18622 (kworker/13:2) S 2 0 0 0 -"..., 1024) = 170
+close(6)                                = 0
+open("/proc/18622/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/13:2\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/19807", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/19807/stat", O_RDONLY)      = 6
+read(6, "19807 (kworker/12:1) S 2 0 0 0 -"..., 1024) = 170
+close(6)                                = 0
+open("/proc/19807/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/12:1\nState:\tS (sle"..., 1024) = 555
+close(6)                                = 0
+stat("/proc/19896", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/19896/stat", O_RDONLY)      = 6
+read(6, "19896 (kworker/19:1) S 2 0 0 0 -"..., 1024) = 170
+close(6)                                = 0
+open("/proc/19896/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/19:1\nState:\tS (sle"..., 1024) = 555
+close(6)                                = 0
+stat("/proc/19914", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/19914/stat", O_RDONLY)      = 6
+read(6, "19914 (kworker/18:0) S 2 0 0 0 -"..., 1024) = 171
+close(6)                                = 0
+open("/proc/19914/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/18:0\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/19967", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/19967/stat", O_RDONLY)      = 6
+read(6, "19967 (kworker/16:2) S 2 0 0 0 -"..., 1024) = 170
+close(6)                                = 0
+open("/proc/19967/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/16:2\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+stat("/proc/21939", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/21939/stat", O_RDONLY)      = 6
+read(6, "21939 (polkitd) S 1 21939 21939 "..., 1024) = 178
+close(6)                                = 0
+open("/proc/21939/status", O_RDONLY)    = 6
+read(6, "Name:\tpolkitd\nState:\tS (sleeping"..., 1024) = 785
+close(6)                                = 0
+stat("/proc/22450", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/22450/stat", O_RDONLY)      = 6
+read(6, "22450 (kworker/18:2) S 2 0 0 0 -"..., 1024) = 168
+close(6)                                = 0
+open("/proc/22450/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/18:2\nState:\tS (sle"..., 1024) = 552
+close(6)                                = 0
+stat("/proc/22976", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/22976/stat", O_RDONLY)      = 6
+read(6, "22976 (kworker/4:2) S 2 0 0 0 -1"..., 1024) = 168
+close(6)                                = 0
+open("/proc/22976/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/4:2\nState:\tS (slee"..., 1024) = 553
+close(6)                                = 0
+stat("/proc/24981", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/24981/stat", O_RDONLY)      = 6
+read(6, "24981 (atop) S 1 24980 24980 0 -"..., 1024) = 182
+close(6)                                = 0
+open("/proc/24981/status", O_RDONLY)    = 6
+read(6, "Name:\tatop\nState:\tS (sleeping)\nT"..., 1024) = 784
+close(6)                                = 0
+stat("/proc/25300", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25300/stat", O_RDONLY)      = 6
+read(6, "25300 (jfsIO) S 2 0 0 0 -1 21381"..., 1024) = 159
+close(6)                                = 0
+open("/proc/25300/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsIO\nState:\tS (sleeping)\n"..., 1024) = 547
+close(6)                                = 0
+stat("/proc/25301", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25301/stat", O_RDONLY)      = 6
+read(6, "25301 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25301/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25302", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25302/stat", O_RDONLY)      = 6
+read(6, "25302 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25302/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25303", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25303/stat", O_RDONLY)      = 6
+read(6, "25303 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25303/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25304", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25304/stat", O_RDONLY)      = 6
+read(6, "25304 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25304/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25305", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25305/stat", O_RDONLY)      = 6
+read(6, "25305 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25305/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25306", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25306/stat", O_RDONLY)      = 6
+read(6, "25306 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25306/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25307", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25307/stat", O_RDONLY)      = 6
+read(6, "25307 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25307/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25308", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25308/stat", O_RDONLY)      = 6
+read(6, "25308 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25308/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25309", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25309/stat", O_RDONLY)      = 6
+read(6, "25309 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25309/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25310", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25310/stat", O_RDONLY)      = 6
+read(6, "25310 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25310/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25311", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25311/stat", O_RDONLY)      = 6
+read(6, "25311 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25311/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25312", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25312/stat", O_RDONLY)      = 6
+read(6, "25312 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25312/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25313", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25313/stat", O_RDONLY)      = 6
+read(6, "25313 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25313/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25314", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25314/stat", O_RDONLY)      = 6
+read(6, "25314 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25314/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25315", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25315/stat", O_RDONLY)      = 6
+read(6, "25315 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25315/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25316", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25316/stat", O_RDONLY)      = 6
+read(6, "25316 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25316/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25317", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25317/stat", O_RDONLY)      = 6
+read(6, "25317 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25317/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25318", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25318/stat", O_RDONLY)      = 6
+read(6, "25318 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25318/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25319", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25319/stat", O_RDONLY)      = 6
+read(6, "25319 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25319/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25320", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25320/stat", O_RDONLY)      = 6
+read(6, "25320 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25320/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25321", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25321/stat", O_RDONLY)      = 6
+read(6, "25321 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25321/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25322", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25322/stat", O_RDONLY)      = 6
+read(6, "25322 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25322/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25323", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25323/stat", O_RDONLY)      = 6
+read(6, "25323 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25323/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25324", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25324/stat", O_RDONLY)      = 6
+read(6, "25324 (jfsCommit) S 2 0 0 0 -1 2"..., 1024) = 163
+close(6)                                = 0
+open("/proc/25324/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsCommit\nState:\tS (sleepi"..., 1024) = 551
+close(6)                                = 0
+stat("/proc/25325", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/25325/stat", O_RDONLY)      = 6
+read(6, "25325 (jfsSync) S 2 0 0 0 -1 213"..., 1024) = 161
+close(6)                                = 0
+open("/proc/25325/status", O_RDONLY)    = 6
+read(6, "Name:\tjfsSync\nState:\tS (sleeping"..., 1024) = 549
+close(6)                                = 0
+stat("/proc/29438", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/29438/stat", O_RDONLY)      = 6
+read(6, "29438 (exim4) S 1 29438 29438 0 "..., 1024) = 187
+close(6)                                = 0
+open("/proc/29438/status", O_RDONLY)    = 6
+read(6, "Name:\texim4\nState:\tS (sleeping)\n"..., 1024) = 802
+close(6)                                = 0
+stat("/proc/29559", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/29559/stat", O_RDONLY)      = 6
+read(6, "29559 (sshd) S 1 29559 29559 0 -"..., 1024) = 202
+close(6)                                = 0
+open("/proc/29559/status", O_RDONLY)    = 6
+read(6, "Name:\tsshd\nState:\tS (sleeping)\nT"..., 1024) = 783
+close(6)                                = 0
+stat("/proc/29961", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/29961/stat", O_RDONLY)      = 6
+read(6, "29961 (irqbalance) S 1 29961 299"..., 1024) = 187
+close(6)                                = 0
+open("/proc/29961/status", O_RDONLY)    = 6
+read(6, "Name:\tirqbalance\nState:\tS (sleep"..., 1024) = 793
+close(6)                                = 0
+stat("/proc/31038", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+open("/proc/31038/stat", O_RDONLY)      = 6
+read(6, "31038 (kworker/21:1) S 2 0 0 0 -"..., 1024) = 171
+close(6)                                = 0
+open("/proc/31038/status", O_RDONLY)    = 6
+read(6, "Name:\tkworker/21:1\nState:\tS (sle"..., 1024) = 556
+close(6)                                = 0
+getdents(5, /* 0 entries */, 32768)     = 0
+close(5)                                = 0
+write(1, "   00:00:00 sshd\n13529 pts/8    "..., 2053) = 2053
+close(1)                                = 0
+munmap(0x7fc5b14fa000, 4096)            = 0
+close(2)                                = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
