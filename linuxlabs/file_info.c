@@ -26,35 +26,23 @@ int main (int argc, char **argv) {
     perror ("stat() ");
     exit (EXIT_FAILURE);
   }
-  char ftype[32] = "";
-  switch (fstat.st_mode & S_IFMT) {
-    case S_IFSOCK:
-      ftype = "socket";
-      break;
-    case S_IFREG:
-      ftype = "regular file";
-      break;
-    case S_IFLNK:
-      ftype = "symbolic link";
-      break;
-    case S_IFBLK:
-      ftype = "block device";
-      break;
-    case S_IFCHR:
-      ftype = "character device";
-      break;
-    case S_IFDIR:
-      ftype = "directory";
-      break;    
-    case S_IFIFO:
-      ftype = "FIFO";
-      break;
-  }
+
   printf ("Information for %s\n",fname);
   printf ("---------------------------\n");
   printf("ID of containing device:  [%lx,%lx]\n",
       (long) major(fstat.st_dev), (long) minor(fstat.st_dev));
-  printf("File type:%40s",ftype);
+   printf("File type:                ");
+
+  switch (fstat.st_mode & S_IFMT) {
+    case S_IFBLK:  printf("block device\n");            break;
+    case S_IFCHR:  printf("character device\n");        break;
+    case S_IFDIR:  printf("directory\n");               break;
+    case S_IFIFO:  printf("FIFO/pipe\n");               break;
+    case S_IFLNK:  printf("symlink\n");                 break;
+    case S_IFREG:  printf("regular file\n");            break;
+    case S_IFSOCK: printf("socket\n");                  break;
+    default:       printf("unknown?\n");                break;
+  }
   printf ("File Size: \t\t%lld bytes\n", (long long) fstat.st_size);
   printf("Blocks allocated:         %lld\n",
           (long long) fstat.st_blocks);
