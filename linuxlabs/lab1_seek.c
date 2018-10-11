@@ -30,30 +30,32 @@ int main (int argc, char **argv) {
     char after_end[10] ="E";
     char at_end[11] ="AT THE END";
     char in_the_middle[7]="middle";
+    // try to set pointer below zero --> Error
     if (lseek(fd, -1, SEEK_SET)==-1)
 		process_error("fseek -1L SEEK_SET"); 
+    // try to set pointer after end --> OK
 	if(lseek(fd, 1000, SEEK_SET)==-1)
 		process_error("fseek 1000L SEEK_SET");
+    // write after EOF --> OK. Hole is filled with zeros
 	err = write(fd, after_end, 1);
 	if( err== -1)
 		process_error("write after end"); 
 
-	lseek(fd, -10L, SEEK_CUR);
-	process_error("seek back after write"); 
+    // Read and write are possible
+	if (lseek(fd, -10L, SEEK_CUR) == -1)
+	    process_error("seek back error"); 
 	err = read(fd, buff,10);
-	process_error("read after seek back"); 
-	lseek(fd, 1, SEEK_END);
-	err = write(fd, at_end, 11);
-	if( err== -1)
-		process_error("write at the end"); 
+	if (err == -1)
+        process_error("read error"); 
+
 	
 	lseek(fd, 4, SEEK_SET);
 	err = write(fd, in_the_middle, 7);
 	if( err== -1)
-		process_error("write in the middle"); 
+	 	process_error("write in the middle"); 
     
-    close(fd);
-    fd = open(fname, O_RDWR);
+    if(close(fd)==-1)
+        process_error("error during closing file")
 
 }
 int process_error(const char* syscall_name) {
