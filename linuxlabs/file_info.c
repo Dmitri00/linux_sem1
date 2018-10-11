@@ -5,6 +5,7 @@
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 #include <fcntl.h>              // fcntl()
 #include <sys/stat.h>           // struct stat
@@ -66,9 +67,9 @@ int main (int argc, char **argv) {
   printf ((fstat.st_mode & S_IXOTH) ? "x" : "-");
   printf ("\n\n");
 
-  printf("Last status change:       %s", ctime(&sb.st_ctime));
-  printf("Last file access:         %s", ctime(&sb.st_atime));
-  printf("Last file modification:   %s", ctime(&sb.st_mtime));
+  printf("Last status change:       %s", ctime(&fstat.st_ctime));
+  printf("Last file access:         %s", ctime(&fstat.st_atime));
+  printf("Last file modification:   %s", ctime(&fstat.st_mtime));
 
   exit(EXIT_SUCCESS);
 }
