@@ -17,21 +17,6 @@ int main(int argc, char** argv) {
         perror("stat() ");
         return -1;
     }
-    if ( fstat.st_size > 256) {
-        printf("File is to large. Do you want to continue? (y/n)");
-        int ch;
-        int cont = 0;
-        while(cont == 0) {
-            printf("%d\n",ch);
-            ch = getch();
-            
-            switch(ch) {
-                case 'y':case 'Y': cont++; break;
-                case 'n':case 'N': return 0;
-                default: printf("y/n:");
-                }
-        }
-    }
        
     int fd = open(argv[1], O_RDONLY);
     if (fd == -1) {
