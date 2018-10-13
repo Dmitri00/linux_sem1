@@ -24,25 +24,29 @@ int main(int argc, char** argv) {
         return -1;
        }
     int buf_size = BUF_SIZE;
-    char buffer[BUF_SIZE];
+    unsigned char buffer[BUF_SIZE];
     long long offset = fstat.st_size;
-    if (lseek(fd, 0, SEEK_END) == -1) {
+    if (lseek(fd, offset, SEEK_SET) == -1-1) {
         perror("lseek ()");
         return -1;
     }
     int read_cnt;
     int i;
+    printf("%lld\n",offset);
     while (offset != 0) {
-        read_cnt = offset - MAX(offset - BUF_SIZE,0);
+        read_cnt = offset - (offset - BUF_SIZE > 0 ? offset - BUF_SIZE : 0);
+        
         offset -= read_cnt;
-        if (lseek(fd, -read_cnt, SEEK_CUR) == -1) {
+        printf("%d\n",offset);
+        if (lseek(fd, offset, SEEK_SET) == -read_cnt-1) {
             perror("lseek seek_cur ");
             return -1;
         }
-        if(read(fd, buffer, read_cnt) != read_cnt) {
+        if(read(fd, buffer, read_cnt) == -1) {
             perror("read");
             return -1;
         }
+        
         for ( i = read_cnt - 1; i >= 0; i--) {
             printf("%c",buffer[i]);
         }
