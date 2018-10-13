@@ -55,7 +55,7 @@ int main (int argc, char **argv) {
 	 	process_error("write in the middle"); 
     
     if(close(fd)==-1)
-        process_error("error during closing file")
+        process_error("error during closing file");
 
 }
 int process_error(const char* syscall_name) {

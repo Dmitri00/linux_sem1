@@ -25,7 +25,7 @@ int main (int argc, char **argv) {
     if (fd == -1) {
         return process_error("open",1);
     }
-    lseek(fd, 1000L, SEEK_SET); 
+    lseek(fd, 100000L, SEEK_SET); 
     char ch = 0;
     err = write(fd, &ch, 1);
     if (err == -1)

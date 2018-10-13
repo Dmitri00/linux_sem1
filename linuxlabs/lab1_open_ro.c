@@ -23,7 +23,6 @@ int main (int argc, char **argv) {
     int fmode = strtol(argv[2], NULL, 8);
     printf("%o\n",fmode);
     int err;
-    // create a new file for reading and writing with permission rw-rw-rw
     int fd = creat(fname,0400|fmode);
     if (fd == -1) {
         return process_error("open",1);

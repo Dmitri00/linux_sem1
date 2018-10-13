@@ -3,7 +3,6 @@
 #include <sys/sendfile.h>
 #include <fcntl.h>              // fcntl()
 #include <sys/stat.h>
-#include <curses.h>
 #include <errno.h>              // errno, perror()
 #define BUF_SIZE 32
 #define MAX(a,b) a > b ? a : b
