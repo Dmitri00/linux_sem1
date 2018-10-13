@@ -1,0 +1,13 @@
+              file descriptor returned by open() being unintentionally  leaked
+              The  group  ownership  (group ID) is set either to the effective
+              is specified in flags; if neither O_CREAT nor O_TMPFILE is spec‐
+              special situations, such  as  when  applications  do  their  own
+              When  possible, the file is opened in nonblocking mode.  Neither
+              porary  file  from being linked into the filesystem in the above
+                 before being atomically linked into the filesystem in a fully
+       EINVAL O_TMPFILE was specified  in  flags,  but  neither  O_WRONLY  nor
+              pathname refers to an executable image which is currently  being
+       cific.  One must define _GNU_SOURCE to obtain their definitions.
+       can  obtain their definitions by defining either _POSIX_C_SOURCE with a
+       given file or filesystem.  Some filesystems provide  their  own  inter‐
+       either  mode alone.  Likewise, applications should avoid mixing mmap(2)
